@@ -1,16 +1,12 @@
-### Hi there 👋
+<h1 align="center">Hi 👋, I'm Alex</h1>
+<h3 align="center">Individual Proof-of-Stake Validator</h3>
+  
+ 💡 I know a little: **HTML, PHP, MySQL, Python, Photoshop, Linux, Grafana**
+ 
+ ⭐ I draw a little. I create a little, but the main passion of the node is to be a validator
+ 
+ 💌 **alxvoy@voynitskiy.com**
+ 
+ 🌐 **https://voynitskiy.com**
 
-<!--
-**Voynitskiy/Voynitskiy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ 💗 Cosmos one Love!
