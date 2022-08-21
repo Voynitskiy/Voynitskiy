@@ -49,6 +49,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/AssetMantle.png' alt='AssetMantle'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Aura.png' alt='Aura'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/BeeZee.png' alt='BeeZee'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Celestia.png' alt='Celestia'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Clan.png' alt='Clan'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Cosmic%20Horizon.png' alt='Cosmic Horizon'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Craft%20Economy.png' alt='Craft Economy'  width='117'>](https://github.com/Voynitskiy)
