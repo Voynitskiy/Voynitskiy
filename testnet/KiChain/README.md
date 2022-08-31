@@ -1,5 +1,11 @@
 # Ki Chain [kichain-t-4]
 ### Links
+* `Website` - https://foundation.ki/
+* `Medium` - https://medium.com/ki-foundation
+* `Twitter` - https://twitter.com/Ki_Foundation
+* `Telegram` - https://t.me/kifoundation
+* `Discord` - https://discord.gg/aj99cT65ND
+### Links testnet
 * https://github.com/KiFoundation/ki-networks/tree/v0.1/Testnet/kichain-t-4
 * https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/UPGRADE_V3.md
 * https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/UPGRADE_t3_t4.md
@@ -81,4 +87,28 @@ kid tx staking create-validator \
   --gas-prices=0.025utki \
   --from=<wallet_name>
 ```
-
+### State-Sync
+```
+SNAP_RPC=65.109.28.177:21157 && \
+LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
+BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
+TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
+echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
+```
+```
+sudo systemctl stop kid && kid tendermint unsafe-reset-all --home $HOME/.kid
+```
+```
+peers="cd106a09cbb727791e649c0ab7c1985a0db5eb8b@65.109.28.177:21156"
+sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.kid/config/config.toml
+```
+```
+sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
+s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
+s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.kid/config/config.toml
+```
+```
+sudo systemctl restart kid && journalctl -fu kid -o cat
+```
