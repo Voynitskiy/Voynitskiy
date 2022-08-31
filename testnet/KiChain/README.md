@@ -36,6 +36,7 @@ kid keys add <wallet_name>
 ### Genesis, peers, seed
 ```
 curl https://raw.githubusercontent.com/KiFoundation/ki-networks/v0.1/Testnet/kichain-t-4/genesis.json > ~/.kid/config/genesis.json
+curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/KiChain/addrbook.json > ~/.$COSMOS/config/addrbook.json
 ```
 ```
 seeds="381dff5439ed042353c5333e61bab1510711f2f5@seed-testnet.blockchain.ki:6969"
