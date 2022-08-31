@@ -9,7 +9,12 @@
 * https://github.com/KiFoundation/ki-networks/tree/v0.1/Testnet/kichain-t-4
 * https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/UPGRADE_V3.md
 * https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/UPGRADE_t3_t4.md
-
+### RPC
+* `RPC` 65.109.28.177:21157
+### Peers and seeds
+* `Peer` cd106a09cbb727791e649c0ab7c1985a0db5eb8b@65.109.28.177:21156
+* `Peers` https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/peers.txt
+* `Seeds` https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/seeds.txt
 ## Installation Steps
 >Prerequisite: go1.16+ required. [ref](https://golang.org/doc/install)
 
@@ -89,6 +94,15 @@ kid tx staking create-validator \
   --from=<wallet_name>
 ```
 ### State-Sync
+* download wasm
+```
+cd && cd .kid && \
+wget https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/KiChain/wasm.tar.gz && \
+rm -R wasm \
+tar -xvf wasm.tar.gz && \
+rm -R wasm.tar.gz
+```
+* start State-Sync
 ```
 SNAP_RPC=65.109.28.177:21157 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
