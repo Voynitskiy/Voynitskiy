@@ -15,6 +15,11 @@
 * `Peer` cd106a09cbb727791e649c0ab7c1985a0db5eb8b@65.109.28.177:21156
 * `Peers` https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/peers.txt
 * `Seeds` https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/seeds.txt
+### Archive folders wasm
+* https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/KiChain/wasm.tar.gz
+### Genesis and addrbook
+* https://raw.githubusercontent.com/KiFoundation/ki-networks/v0.1/Testnet/kichain-t-4/genesis.json
+* https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/KiChain/addrbook.json
 ## Installation Steps
 >Prerequisite: go1.16+ required. [ref](https://golang.org/doc/install)
 
