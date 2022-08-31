@@ -102,7 +102,7 @@ rm -R wasm \
 tar -xvf wasm.tar.gz && \
 rm -R wasm.tar.gz
 ```
-* start State-Sync
+* start with State-Sync
 ```
 SNAP_RPC=65.109.28.177:21157 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
