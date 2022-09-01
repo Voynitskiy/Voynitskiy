@@ -19,7 +19,7 @@
 * `wasm` `01 sep 2022` 
 ### Genesis and addrbook
 * `Genesis` https://github.com/KiFoundation/ki-networks/raw/v0.1/Mainnet/kichain-2/genesis.json
-* `Addrbook` 
+* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/KiChain/addrbook.json
 ### Explorer
 * `Mintscan` https://www.mintscan.io/ki-chain
 * `Ping` https://ping.pub/kichain
@@ -32,16 +32,15 @@
 
 * Fetch and install the current Testnet ki-tools version.
 ```shell
-git clone https://github.com/KiFoundation/ki-tools.git
-cd ki-tools
-git checkout -b v3.0.0-beta tags/3.0.0-beta
-make build-testnet
-cp build/kid $HOME/go/bin/
+wget https://github.com/KiFoundation/ki-tools/releases/download/3.0.0/kid-mainnet-3.0.0-linux-amd64
+mv kid-mainnet-3.0.0-linux-amd64 kid
+chmod u+x kid
+mv kid /root/go/bin/
 ```
 * Init
 ```
-kid init <moniker> --chain-id kichain-t-4
-kid config chain-id kichain-t-4
+kid init <moniker> --chain-id kichain-2
+kid config chain-id kichain-2
 ```
 
 ### Generate keys
@@ -50,23 +49,23 @@ kid keys add <wallet_name>
 ```
 ### Genesis, peers, seed
 ```
-curl https://raw.githubusercontent.com/KiFoundation/ki-networks/v0.1/Testnet/kichain-t-4/genesis.json > ~/.kid/config/genesis.json
-curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/KiChain/addrbook.json > ~/.$COSMOS/config/addrbook.json
+wget -O $HOME/.kid/config/genesis.json "https://github.com/KiFoundation/ki-networks/raw/v0.1/Mainnet/kichain-2/genesis.json"
+curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/KiChain/addrbook.json > ~/.kid/config/addrbook.json
 ```
 ```
-seeds="381dff5439ed042353c5333e61bab1510711f2f5@seed-testnet.blockchain.ki:6969"
-peers="46b25d81510f8dcc535ca0924961b266e4f59244@135.125.183.94:26656,ada3bbf64f963e764bfe003276354bd121e80ae0@95.111.248.200:26656,276f6fb420b3595b63c2a13d35868cb530a31578@65.21.159.19:26656,7e5710ee0b1576a78a21a89e1588b6c95ee69873@194.163.137.193:26656,323a5c9ccfb73573cbcd634c497b2a7405b198fa@142.132.137.114:26656"
+seeds="2088a9e86b4cb5140bf0c2830d4ab6824c85c4aa@seed.blockchain.ki:6969"
+peers="450af457247b59aa558a26a14bd7ac4bf86eeae70@195.201.164.223:26656,81eef39d2ca9a07490857d197423da4ba5e01879@15.188.134.35:26656,5adb5ad6a6fcef624866cefdb551dafdc07f7e78@15.188.198.188:26656,41b321292cbe50c5c30017cc71c404481be0e20b@3.38.12.5:26656,644df8ae7f92e4b77cce887479798b7a7b300797@162.55.189.153:26656,f2b80411c2b48935b796c91c907565c3bd78aff4@142.132.184.154:26656,90c0614a1af1320665cab280bd5e73a18ddf09b8@38.242.200.186:26656,520f6bef2b8fa29dc618b080fe99767562089c78@65.108.206.131:26656"
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.kid/config/config.toml
 ```
 * Minimum gas prices
 ```
-sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.025utki\"/;" ~/.kid/config/app.toml
+sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.025uxki\"/;" ~/.kid/config/app.toml
 ```
 ### Create the service file
 ```
 sudo tee /etc/systemd/system/kid.service > /dev/null <<EOF
 [Unit]
-Description=Ki Chain Testnet
+Description=Ki Chain
 After=network-online.target
 
 [Service]
@@ -88,14 +87,14 @@ sudo systemctl restart kid && journalctl -fu kid -o cat
 ## Create Validator
 ```
 kid tx staking create-validator \
-  --amount=1000000utki \
+  --amount=1000000uxki \
   --pubkey=$(kid tendermint show-validator) \
   --moniker="<moniker>" \
   --identity="<identity>" \
   --website="<website>" \
   --details="<details>" \
   --security-contact="<contact>" \
-  --chain-id="kichain-t-4" \
+  --chain-id="kichain-2" \
   --commission-rate="0.10" \
   --commission-max-rate="0.20" \
   --commission-max-change-rate="0.01" \
@@ -114,7 +113,7 @@ rm -R wasm.tar.gz
 ```
 * start with State-Sync
 ```
-SNAP_RPC=65.109.28.177:21157 && \
+SNAP_RPC=65.108.12.222:26637 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
@@ -124,7 +123,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop kid && kid tendermint unsafe-reset-all --home $HOME/.kid
 ```
 ```
-peers="cd106a09cbb727791e649c0ab7c1985a0db5eb8b@65.109.28.177:21156"
+peers="6dbcc6a1726bb7030875f3a60718dddc0c6f5de2@65.108.12.222:26636"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.kid/config/config.toml
 ```
 ```
