@@ -16,7 +16,7 @@
 * `Peers` https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/peers.txt
 * `Seeds` https://github.com/KiFoundation/ki-networks/blob/v0.1/Testnet/kichain-t-4/seeds.txt
 ### Archive folders wasm
-* `wasm` https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/KiChain/wasm.tar.gz
+* `wasm` `01 sep 2022` https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/KiChain/wasm.tar.gz
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/KiFoundation/ki-networks/v0.1/Testnet/kichain-t-4/genesis.json
 * `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/KiChain/addrbook.json
