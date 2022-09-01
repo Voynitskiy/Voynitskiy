@@ -16,7 +16,7 @@
 * `Peers` https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/peers.txt
 * `Seeds` https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/seeds.txt
 ### Archive folders wasm
-* `wasm` `01 sep 2022` 
+* `wasm` `01 sep 2022` https://github.com/Voynitskiy/Voynitskiy/raw/main/mainnet/KiChain/wasm.tar.gz
 ### Genesis and addrbook
 * `Genesis` https://github.com/KiFoundation/ki-networks/raw/v0.1/Mainnet/kichain-2/genesis.json
 * `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/KiChain/addrbook.json
@@ -106,7 +106,7 @@ kid tx staking create-validator \
 * download wasm
 ```
 cd && cd .kid && \
-wget https://github.com/Voynitskiy/Voynitskiy/raw/main/testnet/KiChain/wasm.tar.gz && \
+wget https://github.com/Voynitskiy/Voynitskiy/raw/main/mainnet/KiChain/wasm.tar.gz && \
 rm -R wasm \
 tar -xvf wasm.tar.gz && \
 rm -R wasm.tar.gz
