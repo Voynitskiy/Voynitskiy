@@ -47,11 +47,12 @@ kid config chain-id kichain-2
 ```
 kid keys add <wallet_name>
 ```
-### Genesis, peers, seed
+### Genesis, addrbook
 ```
 wget -O $HOME/.kid/config/genesis.json "https://github.com/KiFoundation/ki-networks/raw/v0.1/Mainnet/kichain-2/genesis.json"
 curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/KiChain/addrbook.json > ~/.kid/config/addrbook.json
 ```
+### Peers, seed
 ```
 seeds="2088a9e86b4cb5140bf0c2830d4ab6824c85c4aa@seed.blockchain.ki:6969"
 peers="450af457247b59aa558a26a14bd7ac4bf86eeae70@195.201.164.223:26656,81eef39d2ca9a07490857d197423da4ba5e01879@15.188.134.35:26656,5adb5ad6a6fcef624866cefdb551dafdc07f7e78@15.188.198.188:26656,41b321292cbe50c5c30017cc71c404481be0e20b@3.38.12.5:26656,644df8ae7f92e4b77cce887479798b7a7b300797@162.55.189.153:26656,f2b80411c2b48935b796c91c907565c3bd78aff4@142.132.184.154:26656,90c0614a1af1320665cab280bd5e73a18ddf09b8@38.242.200.186:26656,520f6bef2b8fa29dc618b080fe99767562089c78@65.108.206.131:26656"
