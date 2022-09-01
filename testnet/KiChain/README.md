@@ -104,7 +104,7 @@ kid tx staking create-validator \
 * download wasm
 ```
 cd && cd .kid && \
-wget https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/KiChain/wasm.tar.gz && \
+wget https://github.com/Voynitskiy/Voynitskiy/raw/main/testnet/KiChain/wasm.tar.gz && \
 rm -R wasm \
 tar -xvf wasm.tar.gz && \
 rm -R wasm.tar.gz
