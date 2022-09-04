@@ -122,7 +122,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop bitsongd && bitsongd tendermint unsafe-reset-all --home $HOME/.bitsongd
 ```
 ```
-peers="b8a60ad6246ec986d29c1ab900032f3c78605b76@65.108.12.222:26617"
+peers="b8a60ad6246ec986d29c1ab900032f3c78605b76@65.108.12.222:26616"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bitsongd/config/config.toml
 ```
 ```
