@@ -1,4 +1,5 @@
 # Tgrade [tgrade-mainnet-1]
+![Tgrade Guide](https://i.imgur.com/gGvPN5q.png)
 ### Validator AlxVoy
 * `Delegate` https://tgrade.aneka.io/validators/tgrade1q598gmmltugefxxxp76z3re8sedw5gdxfe0wck
 * `Valoper` tgrade1q598gmmltugefxxxp76z3re8sedw5gdxfe0wck
