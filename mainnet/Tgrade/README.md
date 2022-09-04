@@ -52,7 +52,7 @@ tgrade keys add <wallet_name>
 ### Genesis, addrbook
 ```
 curl https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/genesis.json > ~/.tgrade/config/genesis.json
-curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/KiChain/addrbook.json > ~/.tgrade/config/addrbook.json
+curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Tgrade/addrbook.json > ~/.tgrade/config/addrbook.json
 ```
 ### Peers, seed
 ```
