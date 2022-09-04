@@ -26,7 +26,7 @@
 ### RPC
 * `RPC` 65.108.12.222:26617
 ### Peers and seeds
-* `Peer` b8a60ad6246ec986d29c1ab900032f3c78605b76@65.108.12.222:26617
+* `Peer` b8a60ad6246ec986d29c1ab900032f3c78605b76@65.108.12.222:26616
 * `Peers` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/BitSong/peers.txt
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json
