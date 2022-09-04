@@ -1,4 +1,7 @@
 # Ki Chain [kichain-2]
+### Validator AlxVoy
+* `Delegate` https://ping.pub/kichain/staking/kivaloper1tm2p6va7gpsy0ettqk583pl5a05d39vml3rtk5
+* `Valoper` kivaloper1tm2p6va7gpsy0ettqk583pl5a05d39vml3rtk5
 ### Links
 * `Website` - https://foundation.ki/
 * `Medium` - https://medium.com/ki-foundation
