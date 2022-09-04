@@ -15,7 +15,7 @@
 
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BeeZee.png' alt='umee'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitCanna.png' alt='nym'  width='117'>](https://github.com/Voynitskiy)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitSong.png' alt='mises'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitSong.png' alt='mises'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/BitSong/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Canto.png' alt='Canto'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Cerberus.png' alt='Cerberus'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/CHEQD%20Network.png' alt='CHEQD Network'  width='117'>](https://github.com/Voynitskiy)
