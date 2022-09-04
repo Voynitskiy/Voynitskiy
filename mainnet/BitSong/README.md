@@ -16,6 +16,7 @@
 * `Sinfonia App` https://app.sinfonia.zone/ 
 
 ### Links mainnet
+* https://github.com/bitsongofficial/networks/tree/master/bitsong-2
 * https://github.com/bitsongofficial/networks/blob/master/bitsong-2/UPGRADE.md
 ### RPC
 * `RPC` 65.108.12.222:26617
