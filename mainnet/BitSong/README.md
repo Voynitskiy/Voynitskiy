@@ -60,7 +60,7 @@ bitsongd keys add <wallet_name>
 ```
 ### Genesis, addrbook
 ```
-curl https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json > ~/.$COSMOS/config/genesis.json
+curl https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json > ~/.bitsongd/config/genesis.json
 curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/BitSong/addrbook.json > ~/.bitsongd/config/addrbook.json
 ```
 ### Peers, seed
