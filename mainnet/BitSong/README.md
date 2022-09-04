@@ -21,6 +21,8 @@
 ### Links mainnet
 * https://github.com/bitsongofficial/networks/tree/master/bitsong-2
 * https://github.com/bitsongofficial/networks/blob/master/bitsong-2/UPGRADE.md
+### Delegation program
+* https://github.com/bitsongofficial/delegation-program/blob/master/.github/ISSUE_TEMPLATE/application.yaml
 ### RPC
 * `RPC` 65.108.12.222:26617
 ### Peers and seeds
