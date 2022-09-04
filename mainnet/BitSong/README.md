@@ -1,4 +1,7 @@
 # BitSong [bitsong-2b]
+### Validator AlxVoy
+* `Delegate` https://ping.pub/bitsong/staking/bitsongvaloper138zp40g5pnjg4e7a24j5035q2f7nzwfec8ruee
+* `Valoper` bitsongvaloper138zp40g5pnjg4e7a24j5035q2f7nzwfec8ruee
 ### Links
 * `Website` - https://bitsong.io/
 * `Twitter` - https://twitter.com/bitsongofficial
