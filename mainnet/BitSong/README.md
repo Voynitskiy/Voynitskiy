@@ -1,4 +1,5 @@
 # BitSong [bitsong-2b]
+![BitSong Guide](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/BitSong/BitSong.png)
 ### Validator AlxVoy
 * `Delegate` https://ping.pub/bitsong/staking/bitsongvaloper138zp40g5pnjg4e7a24j5035q2f7nzwfec8ruee
 * `Valoper` bitsongvaloper138zp40g5pnjg4e7a24j5035q2f7nzwfec8ruee
