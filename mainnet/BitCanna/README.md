@@ -5,10 +5,9 @@
 * `Valoper` bcnavaloper183gjgyuw9lq7dwjnhdxw9mgchrysqee0mptxsa
 ### Links
 * `Website` - https://www.bitcanna.io/
-* `Medium` - https://medium.com/ki-foundation
 * `Twitter` - https://twitter.com/BitcannaGlobal
 * `Telegram` - https://t.me/BitcannaGlobal
-* `Discord` - https://discord.gg/aj99cT65ND
+* `Discord` - https://discord.gg/cnSHE7nKat
 * `CoinGecko` https://www.coingecko.com/en/coins/bitcanna
 * `Github` https://github.com/BitCannaGlobal
 * `Github Community` https://github.com/BitCannaCommunity/
@@ -119,7 +118,7 @@ TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.bloc
 echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 ```
 ```
-sudo systemctl stop kid && kid tendermint unsafe-reset-all --home $HOME/.kid
+sudo systemctl stop bcnad && bcnad tendermint unsafe-reset-all --home $HOME/.bcna
 ```
 ```
 peers="6dbcc6a1726bb7030875f3a60718dddc0c6f5de2@65.108.12.222:26636"
