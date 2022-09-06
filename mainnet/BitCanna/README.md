@@ -16,9 +16,8 @@
 * `Web Wallet` https://wallet.bitcanna.io/
 * `Validator information` https://docs.bitcanna.io/
 ### Links mainnet
-* https://github.com/KiFoundation/ki-networks/tree/v0.1/Mainnet/kichain-2
-* https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/UPGRADE_V3.md
-* https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/UPGRADE_kichain-1_to_2.md
+* https://github.com/BitCannaGlobal/bcna
+* https://github.com/BitCannaGlobal/bcna/blob/main/last_upgrade.md
 ### RPC
 * `RPC` 65.108.199.222:26357
 ### Peers and seeds
