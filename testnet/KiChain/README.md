@@ -1,4 +1,5 @@
 # Ki Chain [kichain-t-4]
+![KiChain Guide](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/KiChain/KiChain.png)
 ### Links
 * `Website` - https://foundation.ki/
 * `Medium` - https://medium.com/ki-foundation
