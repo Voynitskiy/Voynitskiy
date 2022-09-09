@@ -7,8 +7,6 @@
 * https://github.com/terpnetwork/test-net
 ### Peers and seeds
 * `Peer` 69dd5a6c7d11903a6198109576fa739a216ed92a@97.84.107.110:26656
-### Archive folders wasm
-* `wasm` `01 sep 2022` https://github.com/Voynitskiy/Voynitskiy/raw/main/mainnet/KiChain/wasm.tar.gz
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/terpnetwork/test-net/master/athena-1/genesis.json
 * `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Terp/addrbook.json
