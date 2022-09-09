@@ -1,5 +1,5 @@
 # Terp Network [athena-1]
-![Terp Network Guide](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Terp/TerpNetwork.png)
+![Terp Network Guide](https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/Terp/TerpNetwork.png)
 ### Validator AlxVoy
 * `Valoper` terpvaloper126jdyc74p70ahzrf3wvaka7hmeke8g2ntym70p
 ### Links testnet
