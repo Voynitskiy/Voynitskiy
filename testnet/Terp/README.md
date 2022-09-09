@@ -73,16 +73,18 @@ sudo systemctl restart terpd && journalctl -fu terpd -o cat
 ## Create Validator
 ```
 terpd tx staking create-validator \
-  --amount=1000000ucgas \
-  --pubkey=$(kid tendermint show-validator) \
+  --amount=1000000uterpx \
+  --pubkey=$(terpd tendermint show-validator) \
   --moniker="<moniker>" \
   --identity="<identity>" \
   --website="<website>" \
   --details="<details>" \
   --security-contact="<contact>" \
-  --chain-id="kichain-2" \
+  --chain-id="athena-1" \
   --commission-rate="0.10" \
   --commission-max-rate="0.20" \
   --commission-max-change-rate="0.01" \
+  --min-self-delegation="1" \
+  --fees=2000upersyx \
   --from=<wallet_name>
 ```
