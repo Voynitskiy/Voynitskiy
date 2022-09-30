@@ -20,9 +20,10 @@
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/likecoin/mainnet/master/genesis.json
 * `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/LikeCoin/addrbook.json
-
-
-
-Block Explorer: https://likecoin.bigdipper.live/
-Docs & FAQ: https://docs.like.co/
+### Explorer
+* `Mintscan` https://www.mintscan.io/likecoin
+* `Ping` https://ping.pub/likecoin
+* `Atomscan` https://atomscan.com/likecoin
+* `The code dev` https://ki.thecodes.dev
+* `BigDipper` https://likecoin.bigdipper.live
 
