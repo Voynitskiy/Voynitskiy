@@ -27,7 +27,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Gravity%20Bridge.png' alt='Gravity Bridge'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Ki-Chain.png' alt='Ki-Chain'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/mainnet/KiChain)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Konstellation.png' alt='Konstellation'  width='117'>](https://github.com/Voynitskiy)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/LikeCoin.png' alt='LikeCoin'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/LikeCoin.png' alt='LikeCoin'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/LikeCoin)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Lum.png' alt='Lum'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/MEME.png' alt='MEME'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Mises.png' alt='Mises'  width='117'>](https://github.com/Voynitskiy)
