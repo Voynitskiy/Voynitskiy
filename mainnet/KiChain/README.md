@@ -14,7 +14,7 @@
 * https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/UPGRADE_V3.md
 * https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/UPGRADE_kichain-1_to_2.md
 ### RPC
-* `RPC` 65.108.12.222:26637
+* `RPC` http://65.108.199.222:21637
 ### Peers and seeds
 * `Peer` 6dbcc6a1726bb7030875f3a60718dddc0c6f5de2@65.108.12.222:26636
 * `Peers` https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/peers.txt
@@ -118,7 +118,7 @@ rm -R wasm.tar.gz
 ```
 * start with State-Sync
 ```
-SNAP_RPC=65.108.12.222:26637 && \
+SNAP_RPC=65.108.199.222:21637 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
