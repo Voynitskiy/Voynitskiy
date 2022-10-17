@@ -25,6 +25,7 @@
 * `Genesis` https://github.com/KiFoundation/ki-networks/raw/v0.1/Mainnet/kichain-2/genesis.json
 * `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/KiChain/addrbook.json
 ### Explorer
+* `ANODE.TEAM` https://main.anode.team/kichain
 * `Mintscan` https://www.mintscan.io/ki-chain
 * `Ping` https://ping.pub/kichain
 * `Atomscan` https://atomscan.com/ki-chain
