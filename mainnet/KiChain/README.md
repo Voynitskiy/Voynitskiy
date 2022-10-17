@@ -37,8 +37,8 @@
 
 * Fetch and install the current Testnet ki-tools version.
 ```shell
-wget https://github.com/KiFoundation/ki-tools/releases/download/3.0.0/kid-mainnet-3.0.0-linux-amd64
-mv kid-mainnet-3.0.0-linux-amd64 kid
+wget https://github.com/KiFoundation/ki-tools/releases/download/4.0.0/kid-mainnet-4.0.0-linux-amd64
+mv kid-mainnet-4.0.0-linux-amd64 kid
 chmod u+x kid
 mv kid /root/go/bin/
 ```
