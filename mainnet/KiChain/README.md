@@ -14,7 +14,6 @@
 * https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/UPGRADE_V3.md
 * https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/UPGRADE_V4.md
 * https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/UPGRADE_V4.1.0.md
-* https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/UPGRADE_kichain-1_to_2.md
 ### RPC
 * `RPC` http://65.108.199.222:21637
 ### Peers and seeds
