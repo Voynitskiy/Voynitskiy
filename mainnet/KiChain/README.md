@@ -16,7 +16,7 @@
 ### RPC
 * `RPC` http://65.108.199.222:21637
 ### Peers and seeds
-* `Peer` 6dbcc6a1726bb7030875f3a60718dddc0c6f5de2@65.108.12.222:26636
+* `Peer` 6ebceb16da1c15c48086eaed1be807939f3e50f0@65.108.199.222:21636
 * `Peers` https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/peers.txt
 * `Seeds` https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/seeds.txt
 ### Archive folders wasm
@@ -128,7 +128,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop kid && kid tendermint unsafe-reset-all --home $HOME/.kid
 ```
 ```
-peers="6dbcc6a1726bb7030875f3a60718dddc0c6f5de2@65.108.12.222:26636"
+peers="6ebceb16da1c15c48086eaed1be807939f3e50f0@65.108.199.222:21636"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.kid/config/config.toml
 ```
 ```
