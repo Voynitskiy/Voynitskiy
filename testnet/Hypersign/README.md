@@ -4,6 +4,8 @@
 * `Valoper` hidvaloper12v3uv7x0cg64vcystkqukwv24ecerew2xlyqtp
 ### Links testnet
 * https://github.com/hypersign-protocol
+### RPC
+* `RPC` 65.109.28.177:29227
 ### Peers and seeds
 * `Peer` fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:29226
 ### Genesis and addrbook
