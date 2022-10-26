@@ -80,3 +80,28 @@ sudo systemctl restart hid-noded && journalctl -fu hid-noded -o cat
   --min-self-delegation="1" \
   --from=<wallet_name>
 ```
+### State-Sync
+```
+SNAP_RPC=65.109.28.177:29227 && \
+LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
+BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
+TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
+echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
+```
+```
+sudo systemctl stop hid-noded && hid-noded tendermint unsafe-reset-all --home $HOME/.hid-node
+```
+```
+peers="fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:29226"
+sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.hid-node/config/config.toml
+```
+```
+sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
+s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
+s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.hid-node/config/config.toml
+```
+```
+sudo systemctl restart hid-noded && journalctl -fu hid-noded -o cat
+```
