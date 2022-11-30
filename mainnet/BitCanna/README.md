@@ -1,7 +1,7 @@
 # BitCanna [bitcanna-1]
 ![BitCanna Guide](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/BitCanna/BitCanna.png)
 ### Validator AlxVoy
-* `Delegate` https://ping.pub/bitcanna/staking/bcnavaloper183gjgyuw9lq7dwjnhdxw9mgchrysqee0mptxsa
+* `Delegate` https://main.anode.team/bitcanna/staking/bcnavaloper183gjgyuw9lq7dwjnhdxw9mgchrysqee0mptxsa
 * `Valoper` bcnavaloper183gjgyuw9lq7dwjnhdxw9mgchrysqee0mptxsa
 ### Links
 * `Website` - https://www.bitcanna.io/
