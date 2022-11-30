@@ -114,7 +114,7 @@ bcnad tx staking create-validator \
 ### State-Sync
 * start with State-Sync
 ```
-SNAP_RPC=65.108.199.222:26357 && \
+SNAP_RPC=https://bitcanna.rpc.m.anode.team && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
@@ -124,7 +124,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop bcnad && bcnad tendermint unsafe-reset-all --home $HOME/.bcna
 ```
 ```
-peers="6dbcc6a1726bb7030875f3a60718dddc0c6f5de2@65.108.12.222:26636"
+peers="803fc66e3bd7b724921ef9c40636067f36e880c6@65.108.199.222:26357"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bcna/config/config.toml
 ```
 ```
