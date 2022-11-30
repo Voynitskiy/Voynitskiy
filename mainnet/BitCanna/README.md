@@ -38,7 +38,7 @@
 * Fetch and install the current Testnet ki-tools version.
 ```shell
 git clone https://github.com/BitCannaGlobal/bcna.git
-cd bcna && git checkout  v1.4.2
+cd bcna && git checkout v1.5.3
 make build
 sudo mv $HOME/bcna/build/bcnad /usr/local/bin/bcnad
 ```
