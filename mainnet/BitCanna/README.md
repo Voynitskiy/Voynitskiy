@@ -18,7 +18,9 @@
 * https://github.com/BitCannaGlobal/bcna
 * https://github.com/BitCannaGlobal/bcna/blob/main/last_upgrade.md
 ### RPC
-* `RPC` 65.108.199.222:26357
+* `RPC` https://bitcanna.rpc.m.anode.team
+### API
+* `RPC` https://bitcanna.api.m.anode.team
 ### Peers and seeds
 * `Peer` 6dbcc6a1726bb7030875f3a60718dddc0c6f5de2@65.108.12.222:26636
 * `Peers & seeds` https://github.com/BitCannaGlobal/bcna/blob/main/peers_seeds_and_services.md
