@@ -28,6 +28,7 @@
 * `Genesis` https://raw.githubusercontent.com/BitCannaGlobal/bcna/main/genesis.json
 * `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/BitCanna/addrbook.json
 ### Explorer
+* `ANODE.TEAM` https://main.anode.team/bitcanna
 * `BitCanna` https://cosmos-explorer.bitcanna.io/
 * `Mintscan` https://www.mintscan.io/bitcanna
 * `Ping` https://ping.pub/bitcanna
