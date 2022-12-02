@@ -151,7 +151,7 @@ rm -rf $HOME/.bcna/data/
 curl -o - -L https://anode.team/BitCanna/main/anode.team_bitcanna.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
 ```
 ```
-mv $HOME/.provenanced/priv_validator_state.json.backup $HOME/.provenanced/data/priv_validator_state.json
+mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
 ```
 ```
 sudo systemctl restart bcnad && journalctl -fu bcnad -o cat
