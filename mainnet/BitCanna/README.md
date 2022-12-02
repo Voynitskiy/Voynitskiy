@@ -137,27 +137,22 @@ s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.bcna/config/config.toml
 ```
 sudo systemctl restart bcnad && journalctl -fu bcnad -o cat
 ```
-### SnapShot 2 times a day
-* stopping the node
+### SnapShot (2 times a day)
 ```
 sudo systemctl stop bcnad
 ```
-* saving priv_validator_state.json
 ```
 cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
 ```
-* deleting old data
 ```
 rm -rf $HOME/.bcna/data/
-* download archive
+```
 ```
 curl -o - -L https://anode.team/BitCanna/main/anode.team_bitcanna.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
 ```
-* restoring priv_validator_state.json
 ```
 mv $HOME/.provenanced/priv_validator_state.json.backup $HOME/.provenanced/data/priv_validator_state.json
 ```
-* restart
 ```
 sudo systemctl restart bcnad && journalctl -fu bcnad -o cat
 ```
