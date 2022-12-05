@@ -6,7 +6,7 @@
 ### Links
 * `Website` - https://teritori.com/
 * `Twitter` - https://twitter.com/TeritoriNetwork
-* `Discord` - https://discord.gg/cnSHE7nKat
+* `Discord` - https://discord.gg/teritori
 * `CoinGecko` - https://www.coingecko.com/en/coins/teritori
 * `Github` - https://github.com/TERITORI/
 * `Crew3` - https://teritori.crew3.xyz/questboard
