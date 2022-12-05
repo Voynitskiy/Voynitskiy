@@ -116,3 +116,50 @@ teritorid tx staking create-validator \
   --min-self-delegation="1000000" \
   --from=<wallet_name>
 ```
+
+### State-Sync
+* start with State-Sync
+```
+SNAP_RPC=https://teritori.rpc.m.anode.team && \
+LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
+BLOCK_HEIGHT=$((LATEST_HEIGHT - 100)); \
+TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
+echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
+```
+```
+sudo systemctl stop teritorid && teritorid tendermint unsafe-reset-all --home $HOME/.teritorid --keep-addr-book
+```
+```
+peers="d2841ce68396c06b9793597feedbcef26ff87a8d@65.109.28.177:26797"
+sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.teritorid/config/config.toml
+```
+```
+sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
+s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
+s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.teritorid/config/config.toml
+```
+```
+sudo systemctl restart teritorid && journalctl -fu teritorid -o cat
+```
+
+### SnapShot (2 times a day)
+```
+sudo systemctl stop teritorid
+```
+```
+cp $HOME/.teritorid/data/priv_validator_state.json $HOME/.teritorid/priv_validator_state.json.backup
+```
+```
+rm -rf $HOME/.teritorid/data/
+```
+```
+curl -o - -L https://anode.team/Teritori/main/anode.team_teritori.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.teritorid
+```
+```
+mv $HOME/.teritorid/priv_validator_state.json.backup $HOME/.teritorid/data/priv_validator_state.json
+```
+```
+sudo systemctl restart teritorid && journalctl -fu teritorid -o cat
+```
