@@ -21,3 +21,8 @@
 ### The R!OT
 * `Linktr` - https://linktr.ee/theriotnft
 * `Discord` - https://discord.gg/theriotnft
+* 
+### RPC
+* `RPC` https://teritori.rpc.m.anode.team
+### API
+* `API` https://teritori.api.m.anode.team
