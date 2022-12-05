@@ -19,5 +19,5 @@
 * `Launchpad Application Form` - https://airtable.com/shr1kU7kXW0267gNV
 
 ### The R!OT
-`Linktr` - https://linktr.ee/theriotnft
-`Discord` - https://discord.gg/theriotnft
+* `Linktr` - https://linktr.ee/theriotnft
+* `Discord` - https://discord.gg/theriotnft
