@@ -34,3 +34,9 @@
 ### Genesis and addrbook
 * `Genesis` https://media.githubusercontent.com/media/TERITORI/teritori-chain/v1.1.2/mainnet/teritori-1/genesis.json
 * `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Teritori/addrbook.json
+
+### Explorer
+* `ANODE.TEAM` https://main.anode.team/teritori
+* `Mintscan` https://www.mintscan.io/teritori
+* `Ping` https://ping.pub/teritori
+* `Atomscan` https://atomscan.com/teritori
