@@ -40,3 +40,61 @@
 * `Mintscan` https://www.mintscan.io/teritori
 * `Ping` https://ping.pub/teritori
 * `Atomscan` https://atomscan.com/teritori
+
+## Installation Steps
+>Prerequisite: go1.18+ required. [ref](https://golang.org/doc/install)
+
+>Prerequisite: git. [ref](https://github.com/git/git)
+
+* Fetch and install the current Testnet ki-tools version.
+```shell
+git clone https://github.com/TERITORI/teritori-chain
+cd teritori-chain && git checkout v1.2.0
+make install
+```
+* Init
+```
+teritorid init <moniker> --chain-id teritori-1
+teritorid config chain-id teritori-1
+```
+
+### Generate keys
+```
+teritorid keys add <wallet_name>
+```
+
+### Genesis, addrbook
+```
+curl https://media.githubusercontent.com/media/TERITORI/teritori-chain/v1.1.2/mainnet/teritori-1/genesis.json > ~/.teritorid/config/genesis.json
+curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Teritori/addrbook.json > ~/.teritorid/config/addrbook.json
+```
+
+### Peers, seed
+```
+peers="3069b058b5ed85c3cdb2cf18fb1d255d966b53af@193.149.187.8:26656,a06fbbb9ace823ae28a696a91daa2d0644653c28@65.21.32.200:26756"
+sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.bcna/config/config.toml
+```
+
+### Create the service file
+```
+sudo tee /etc/systemd/system/teritorid.service > /dev/null <<EOF
+[Unit]
+Description=Teritori Daemon
+After=network-online.target
+
+[Service]
+User=$USER
+ExecStart=$(which teritorid) start
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+* Load service and start
+```
+sudo systemctl daemon-reload && sudo systemctl enable teritorid
+sudo systemctl restart teritorid && journalctl -fu teritorid -o cat
+```
