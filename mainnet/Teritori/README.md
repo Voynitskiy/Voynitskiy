@@ -21,8 +21,16 @@
 ### The R!OT
 * `Linktr` - https://linktr.ee/theriotnft
 * `Discord` - https://discord.gg/theriotnft
-* 
+
 ### RPC
 * `RPC` https://teritori.rpc.m.anode.team
+
 ### API
 * `API` https://teritori.api.m.anode.team
+
+### Peers
+* `Peer` d2841ce68396c06b9793597feedbcef26ff87a8d@65.109.28.177:26797
+
+### Genesis and addrbook
+* `Genesis` https://media.githubusercontent.com/media/TERITORI/teritori-chain/v1.1.2/mainnet/teritori-1/genesis.json
+* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Teritori/addrbook.json
