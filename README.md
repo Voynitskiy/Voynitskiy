@@ -13,6 +13,7 @@
 
 <h1 align="center">Mainnet</h1>
 
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Arable.png' alt='umee'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BeeZee.png' alt='umee'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitCanna.png' alt='nym'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/BitCanna/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitSong.png' alt='mises'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/BitSong/README.md)
@@ -40,6 +41,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Point.png' alt='Point'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Rizon.png' alt='Rizon'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Shentu.png' alt='Shentu'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Sifchain.png' alt='Shentu'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Stride.png' alt='Stride'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Teritori.png' alt='Teritori'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Teritori/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Tgrade.png' alt='Tgrade'  width='117'>](https://github.com/Voynitskiy)
