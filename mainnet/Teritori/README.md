@@ -141,6 +141,9 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.teritorid/config/config.toml
 ```
 ```
+curl -o - -L https://anode.team/Teritori/main/anode.team_teritori_wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.teritorid/data
+```
+```
 sudo systemctl restart teritorid && journalctl -fu teritorid -o cat
 ```
 
