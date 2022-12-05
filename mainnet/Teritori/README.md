@@ -98,3 +98,21 @@ EOF
 sudo systemctl daemon-reload && sudo systemctl enable teritorid
 sudo systemctl restart teritorid && journalctl -fu teritorid -o cat
 ```
+
+## Create Validator
+```
+teritorid tx staking create-validator \
+  --amount=1000000utori \
+  --pubkey=$(teritorid tendermint show-validator) \
+  --moniker="<moniker>" \
+  --identity="<identity>" \
+  --website="<website>" \
+  --details="<details>" \
+  --security-contact="<contact>" \
+  --chain-id="teritori-1" \
+  --commission-rate="0.05" \
+  --commission-max-rate="0.20" \
+  --commission-max-change-rate="0.01" \
+  --min-self-delegation="1000000" \
+  --from=<wallet_name>
+```
