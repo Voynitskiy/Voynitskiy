@@ -114,7 +114,7 @@ bcnad tx staking create-validator \
 ### State-Sync
 * start with State-Sync
 ```
-SNAP_RPC=https://bitcanna.rpc.m.anode.team && \
+SNAP_RPC=65.108.199.222:26357 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
