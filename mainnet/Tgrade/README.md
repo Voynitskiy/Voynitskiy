@@ -32,7 +32,7 @@
 
 >Prerequisite: git. [ref](https://github.com/git/git)
 
-* Fetch and install the current Testnet ki-tools version.
+* Fetch and install the current version.
 ```shell
 git clone https://github.com/confio/tgrade
 cd tgrade
