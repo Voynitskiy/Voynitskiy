@@ -31,7 +31,7 @@
 
 >Prerequisite: git. [ref](https://github.com/git/git)
 
-* Fetch and install the current Testnet ki-tools version.
+* Fetch and install the current version.
 ```shell
 wget https://github.com/likecoin/likecoin-chain/releases/download/v3.0.0/likecoin-chain_3.0.0_Linux_x86_64.tar.gz
 tar -xvf likecoin-chain_3.0.0_Linux_x86_64.tar.gz
