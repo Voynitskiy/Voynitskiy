@@ -26,7 +26,7 @@
 * `Peers & seeds` https://github.com/BitCannaGlobal/bcna/blob/main/peers_seeds_and_services.md
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/BitCannaGlobal/bcna/main/genesis.json
-* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/BitCanna/addrbook.json
+* `Addrbook` https://anode.team/BitCanna/main/addrbook.json
 ### Explorer
 * `ANODE.TEAM` https://main.anode.team/bitcanna
 * `BitCanna` https://cosmos-explorer.bitcanna.io/
@@ -58,7 +58,7 @@ bcnad keys add <wallet_name>
 ### Genesis, addrbook
 ```
 curl https://raw.githubusercontent.com/BitCannaGlobal/bcna/main/genesis.json > ~/.bcna/config/genesis.json
-curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/BitCanna/addrbook.json > ~/.bcna/config/addrbook.json
+curl https://anode.team/BitCanna/main/addrbook.json > ~/.bcna/config/addrbook.json
 ```
 ### Peers, seed
 ```
