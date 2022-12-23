@@ -46,7 +46,7 @@
 
 >Prerequisite: git. [ref](https://github.com/git/git)
 
-* Fetch and install the current Testnet ki-tools version.
+* Fetch and install the current version.
 ```shell
 git clone https://github.com/TERITORI/teritori-chain
 cd teritori-chain && git checkout v1.2.0
