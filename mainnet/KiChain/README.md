@@ -36,7 +36,7 @@
 
 >Prerequisite: git. [ref](https://github.com/git/git)
 
-* Fetch and install the current Testnet ki-tools version.
+* Fetch and install the current version.
 ```shell
 wget https://github.com/KiFoundation/ki-tools/releases/download/4.1.0/kid-mainnet-4.1.0-linux-amd64
 mv kid-mainnet-4.1.0-linux-amd64 kid
