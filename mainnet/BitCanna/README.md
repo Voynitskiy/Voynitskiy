@@ -139,20 +139,14 @@ sudo systemctl restart bcnad && journalctl -fu bcnad -o cat
 ```
 ### SnapShot (2 times a day)
 ```
-sudo systemctl stop bcnad
-```
-```
-cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
-```
-```
+sudo systemctl stop bcnad && \
+cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup && \
 rm -rf $HOME/.bcna/data/
 ```
 ```
 curl -o - -L https://anode.team/BitCanna/main/anode.team_bitcanna.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
 ```
 ```
-mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
-```
-```
+mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json && \
 sudo systemctl restart bcnad && journalctl -fu bcnad -o cat
 ```
