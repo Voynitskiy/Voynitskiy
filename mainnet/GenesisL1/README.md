@@ -12,7 +12,9 @@
 ### Links mainnet
 * https://github.com/alpha-omega-labs/genesisd
 ### RPC
-* `RPC` 144.76.97.251:21497
+* `RPC` https://genesisl1.rpc.m.anode.team
+### API
+* `RPC` https://genesisl1.api.m.anode.team
 ### Peers and seeds
 * `Peer` c1a4ec51bf9639672d9a43b592ec37fadab403f7@65.109.28.177:21496
 * `Peers` https://github.com/alpha-omega-labs/genesisd/blob/neolithic/peers_list.txt
@@ -102,7 +104,7 @@ genesisd tx staking create-validator \
 ### State-Sync
 * start with State-Sync
 ```
-SNAP_RPC=144.76.97.251:21497 && \
+SNAP_RPC=https://genesisl1.rpc.m.anode.team:443 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
