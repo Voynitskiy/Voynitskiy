@@ -125,6 +125,10 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.canine/config/config.toml
 ```
 ```
+cd $HOME/.canine/ && rm -r wasm && \
+curl -o - -L https://anode.team/Jackal/main/anode.team_jackal_wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.canine/
+```
+```
 sudo systemctl restart canined && journalctl -fu canined -o cat
 ```
 ### SnapShot (2 times a day)
