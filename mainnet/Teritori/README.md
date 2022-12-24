@@ -149,20 +149,14 @@ sudo systemctl restart teritorid && journalctl -fu teritorid -o cat
 
 ### SnapShot (2 times a day)
 ```
-sudo systemctl stop teritorid
-```
-```
-cp $HOME/.teritorid/data/priv_validator_state.json $HOME/.teritorid/priv_validator_state.json.backup
-```
-```
+sudo systemctl stop teritorid && \
+cp $HOME/.teritorid/data/priv_validator_state.json $HOME/.teritorid/priv_validator_state.json.backup && \
 rm -rf $HOME/.teritorid/data/
 ```
 ```
 curl -o - -L https://anode.team/Teritori/main/anode.team_teritori.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.teritorid
 ```
 ```
-mv $HOME/.teritorid/priv_validator_state.json.backup $HOME/.teritorid/data/priv_validator_state.json
-```
-```
+mv $HOME/.teritorid/priv_validator_state.json.backup $HOME/.teritorid/data/priv_validator_state.json && \
 sudo systemctl restart teritorid && journalctl -fu teritorid -o cat
 ```
