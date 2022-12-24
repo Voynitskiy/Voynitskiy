@@ -14,7 +14,7 @@
 ### RPC
 * `RPC` 144.76.97.251:21497
 ### Peers and seeds
-* `Peer` eefdbf7eb40265a9e900a10d36de1c088b49420e@144.76.97.251:21496
+* `Peer` c1a4ec51bf9639672d9a43b592ec37fadab403f7@65.109.28.177:21496
 * `Peers` https://github.com/alpha-omega-labs/genesisd/blob/neolithic/peers_list.txt
 ### Genesis and addrbook
 * `Genesis` https://github.com/alpha-omega-labs/genesisd/raw/neolithic/genesis_29-1-state/genesis.json
@@ -112,7 +112,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop genesisd && genesisd unsafe-reset-all --home $HOME/.genesisd
 ```
 ```
-peers="eefdbf7eb40265a9e900a10d36de1c088b49420e@144.76.97.251:21496"
+peers="c1a4ec51bf9639672d9a43b592ec37fadab403f7@65.109.28.177:21496"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.genesisd/config/config.toml
 ```
 ```
