@@ -25,9 +25,11 @@
 ### Delegation program
 * https://github.com/bitsongofficial/delegation-program/blob/master/.github/ISSUE_TEMPLATE/application.yaml
 ### RPC
-* `RPC` 65.108.12.222:26617
+* `RPC` https://bitsong.rpc.m.anode.team
+### API
+* `RPC` https://bitsong.api.m.anode.team
 ### Peers and seeds
-* `Peer` b8a60ad6246ec986d29c1ab900032f3c78605b76@65.108.12.222:26616
+* `Peer` b8a60ad6246ec986d29c1ab900032f3c78605b76@65.108.199.222:26616
 * `Peers` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/BitSong/peers.txt
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json
@@ -113,7 +115,7 @@ bitsongd tx staking create-validator \
 ### State-Sync
 * start with State-Sync
 ```
-SNAP_RPC=65.108.12.222:26617 && \
+SNAP_RPC=https://bitsong.rpc.m.anode.team:443 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
@@ -123,7 +125,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop bitsongd && bitsongd tendermint unsafe-reset-all --home $HOME/.bitsongd
 ```
 ```
-peers="b8a60ad6246ec986d29c1ab900032f3c78605b76@65.108.12.222:26616"
+peers="b8a60ad6246ec986d29c1ab900032f3c78605b76@65.108.199.222:26616"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bitsongd/config/config.toml
 ```
 ```
