@@ -129,20 +129,14 @@ sudo systemctl restart canined && journalctl -fu canined -o cat
 ```
 ### SnapShot (2 times a day)
 ```
-sudo systemctl stop bcnad
-```
-```
-cp $HOME/.canine/data/priv_validator_state.json $HOME/.canine/priv_validator_state.json.backup
-```
-```
+sudo systemctl stop bcnad && \
+cp $HOME/.canine/data/priv_validator_state.json $HOME/.canine/priv_validator_state.json.backup && \
 rm -rf $HOME/.canine/data/
 ```
 ```
 curl -o - -L https://anode.team/Jackal/main/anode.team_jackal.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.canine
 ```
 ```
-mv $HOME/.canine/priv_validator_state.json.backup $HOME/.canine/data/priv_validator_state.json
-```
-```
+mv $HOME/.canine/priv_validator_state.json.backup $HOME/.canine/data/priv_validator_state.json && \
 sudo systemctl restart canined && journalctl -fu canined -o cat
 ```
