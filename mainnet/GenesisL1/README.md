@@ -20,7 +20,7 @@
 * `Peers` https://github.com/alpha-omega-labs/genesisd/blob/neolithic/peers_list.txt
 ### Genesis and addrbook
 * `Genesis` https://github.com/alpha-omega-labs/genesisd/raw/neolithic/genesis_29-1-state/genesis.json
-* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/GenesisL1/addrbook.json
+* `Addrbook` https://anode.team/GenesisL1/main/addrbook.json
 ### Explorer
 * `ANODE.TEAM` https://main.anode.team/genesisl1
 * `Ping` https://ping.pub/genesisL1
