@@ -33,7 +33,7 @@
 * `Peers` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/BitSong/peers.txt
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json
-* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/BitSong/addrbook.json
+* `Addrbook` https://anode.team/BitSong/main/addrbook.json
 ### Explorer
 * `Mintscan` https://www.mintscan.io/bitsong
 * `Big Dipper` https://bitsong.bigdipper.live/
@@ -64,7 +64,7 @@ bitsongd keys add <wallet_name>
 ### Genesis, addrbook
 ```
 curl https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json > ~/.bitsongd/config/genesis.json
-curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/BitSong/addrbook.json > ~/.bitsongd/config/addrbook.json
+curl https://anode.team/BitSong/main/addrbook.json > ~/.bitsongd/config/addrbook.json
 ```
 ### Peers, seed
 ```
