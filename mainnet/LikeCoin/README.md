@@ -13,7 +13,9 @@
 ### Links mainnet
 * https://docs.like.co/validator/likecoin-chain-node/setup-a-node
 ### RPC
-* `RPC` 65.109.28.177:29697
+* `RPC` https://likecoin.rpc.m.anode.team
+### API
+* `API` https://likecoin.api.m.anode.team
 ### Peers and seeds
 * `Peer` fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:29697
 * `Seeds` 7a38dfc59eb43b27cf2cc87b46a43e76aeaaf012@20.205.224.107:26656,49976c3bd43da9271f226cbedf02d4b6b8fc880c@35.233.143.230:26656
@@ -107,7 +109,7 @@ liked tx staking create-validator \
 ### State-Sync
 * start with State-Sync
 ```
-SNAP_RPC=65.109.28.177:29697 && \
+SNAP_RPC=https://likecoin.rpc.m.anode.team:443 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
