@@ -25,7 +25,7 @@
 * `wasm` `04 sep 2022` https://github.com/Voynitskiy/Voynitskiy/raw/main/mainnet/Tgrade/wasm.tar.gz
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/genesis.json
-* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Tgrade/addrbook.json
+* `Addrbook` https://anode.team/Tgrade/main/addrbook.json
 ### Explorer
 * `Mintscan` https://www.mintscan.io/tgrade
 * `Aneka` 	https://tgrade.aneka.io
@@ -55,7 +55,7 @@ tgrade keys add <wallet_name>
 ### Genesis, addrbook
 ```
 curl https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/genesis.json > ~/.tgrade/config/genesis.json
-curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Tgrade/addrbook.json > ~/.tgrade/config/addrbook.json
+curl https://anode.team/Tgrade/main/addrbook.json > ~/.tgrade/config/addrbook.json
 ```
 ### Peers, seed
 ```
@@ -109,14 +109,6 @@ tgrade tx poe create-validator \
   --from=<wallet_name>
 ```
 ### State-Sync
-* download wasm
-```
-cd && cd .tgrade && \
-wget https://github.com/Voynitskiy/Voynitskiy/raw/main/mainnet/Tgrade/wasm.tar.gz && \
-rm -R wasm \
-tar -xvf wasm.tar.gz && \
-rm -R wasm.tar.gz
-```
 * start with State-Sync
 ```
 SNAP_RPC=https://tgrade.rpc.m.anode.team:443 && \
@@ -138,6 +130,9 @@ s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.tgrade/config/config.toml
+```
+```
+curl -o - -L https://anode.team/Jackal/main/anode.team_tgade_wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.tgrade/
 ```
 ```
 sudo systemctl restart tgrade && journalctl -u tgrade -f
