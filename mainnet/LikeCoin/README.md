@@ -21,7 +21,7 @@
 * `Seeds` 7a38dfc59eb43b27cf2cc87b46a43e76aeaaf012@20.205.224.107:26656,49976c3bd43da9271f226cbedf02d4b6b8fc880c@35.233.143.230:26656
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/likecoin/mainnet/master/genesis.json
-* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/LikeCoin/addrbook.json
+* `Addrbook` https://anode.team/LikeCoin/main/addrbook.json
 ### Explorer
 * `ANODE.TEAM` https://main.anode.team/likecoin
 * `Mintscan` https://www.mintscan.io/likecoin
@@ -53,7 +53,7 @@ liked keys add <wallet_name>
 ### Genesis, addrbook
 ```
 curl https://raw.githubusercontent.com/likecoin/mainnet/master/genesis.json > ~/.liked/config/genesis.json
-curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/LikeCoin/addrbook.json > ~/.liked/config/addrbook.json
+curl https://anode.team/LikeCoin/main/addrbook.json > ~/.liked/config/addrbook.json
 ```
 ### Peers, seed
 ```
