@@ -14,7 +14,9 @@
 ### Links mainnet
 * https://github.com/confio/tgrade-networks
 ### RPC
-* `RPC` 144.76.97.251:28827
+* `RPC` https://tgrade.rpc.m.anode.team
+### API
+* `API` https://tgrade.api.m.anode.team
 ### Peers and seeds
 * `Peer` deab21ea29a24c50699ca3691b50dfd54b2a3a93@144.76.97.251:28826
 * `Peers` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Tgrade/peers.txt
@@ -117,7 +119,7 @@ rm -R wasm.tar.gz
 ```
 * start with State-Sync
 ```
-SNAP_RPC=144.76.97.251:28827 && \
+SNAP_RPC=https://tgrade.rpc.m.anode.team:443 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
