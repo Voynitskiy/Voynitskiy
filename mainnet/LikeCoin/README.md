@@ -26,7 +26,6 @@
 * `Ping` https://ping.pub/likecoin
 * `BigDipper` https://likecoin.bigdipper.live
 * `Atomscan` https://atomscan.com/likecoin
-* `The code dev` https://ki.thecodes.dev
 ## Installation Steps
 >Prerequisite: go1.18+ required. [ref](https://golang.org/doc/install)
 
