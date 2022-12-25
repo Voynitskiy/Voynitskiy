@@ -22,7 +22,7 @@
 * `Peers` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Tgrade/peers.txt
 * `Seeds` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Tgrade/seeds.txt
 ### Archive folders wasm
-* `wasm` `04 sep 2022` https://github.com/Voynitskiy/Voynitskiy/raw/main/mainnet/Tgrade/wasm.tar.gz
+* `wasm` https://anode.team/Jackal/main/anode.team_tgade_wasm.tar.lz4
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/genesis.json
 * `Addrbook` https://anode.team/Tgrade/main/addrbook.json
