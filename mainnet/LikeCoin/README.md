@@ -91,7 +91,7 @@ sudo systemctl restart liked && journalctl -fu liked -o cat
 ## Create Validator
 ```
 liked tx staking create-validator \
-  --amount=8673097086762nanolike \
+  --amount=1000000000000nanolike \
   --pubkey=$(liked tendermint show-validator) \
   --moniker="<moniker>" \
   --identity="<identity>" \
