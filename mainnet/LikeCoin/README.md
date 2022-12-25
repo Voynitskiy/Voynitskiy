@@ -21,6 +21,7 @@
 * `Genesis` https://raw.githubusercontent.com/likecoin/mainnet/master/genesis.json
 * `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/LikeCoin/addrbook.json
 ### Explorer
+* `ANODE.TEAM` https://main.anode.team/likecoin
 * `Mintscan` https://www.mintscan.io/likecoin
 * `Ping` https://ping.pub/likecoin
 * `BigDipper` https://likecoin.bigdipper.live
