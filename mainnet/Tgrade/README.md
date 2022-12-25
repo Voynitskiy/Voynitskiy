@@ -36,7 +36,7 @@
 ```shell
 git clone https://github.com/confio/tgrade
 cd tgrade
-git checkout v1.0.1
+git checkout v2.0.2
 make build
 sudo mv build/tgrade /usr/local/bin
 ```
