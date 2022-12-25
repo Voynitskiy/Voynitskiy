@@ -23,10 +23,10 @@
 * `Peers` https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/peers.txt
 * `Seeds` https://github.com/KiFoundation/ki-networks/blob/v0.1/Mainnet/kichain-2/seeds.txt
 ### Archive folders wasm
-* `wasm` `01 sep 2022` https://github.com/Voynitskiy/Voynitskiy/raw/main/mainnet/KiChain/wasm.tar.gz
+* `wasm` https://anode.team/KiChain/main/anode.team_ki_wasm.tar.lz4
 ### Genesis and addrbook
 * `Genesis` https://github.com/KiFoundation/ki-networks/raw/v0.1/Mainnet/kichain-2/genesis.json
-* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/KiChain/addrbook.json
+* `Addrbook` https://anode.team/KiChain/main/addrbook.json
 ### Explorer
 * `ANODE.TEAM` https://main.anode.team/kichain
 * `Mintscan` https://www.mintscan.io/ki-chain
@@ -115,13 +115,13 @@ kid tx staking create-validator \
 * download wasm
 ```
 cd && cd .kid && \
-wget https://github.com/Voynitskiy/Voynitskiy/raw/main/mainnet/KiChain/wasm.tar.gz
+wget https://anode.team/KiChain/main/anode.team_ki_wasm.tar.lz4
 
 # if there is an old folder, delete it
 rm -R wasm
 
-tar -xvf wasm.tar.gz && \
-rm -R wasm.tar.gz
+tar -xvf anode.team_ki_wasm.tar.lz4 && \
+rm -R anode.team_ki_wasm.tar.lz4
 ```
 * start with State-Sync
 ```
