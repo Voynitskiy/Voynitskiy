@@ -1,5 +1,5 @@
 # OKP4 [okp4-nemeton-1]
-![OKP4 Guide](https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/BitCanna/OKP4.png)
+![OKP4 Guide](https://github.com/Voynitskiy/Voynitskiy/blob/test/testnet/OKP4/OKP4.png)
 ### Validator AlxVoy
 * `Delegate` https://test.anode.team/opk4/staking/okp4valoper1329p0ltpd6meegdax4q3s3du8aayge2xza6e4d
 * `Valoper` okp4valoper1329p0ltpd6meegdax4q3s3du8aayge2xza6e4d
