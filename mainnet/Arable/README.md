@@ -124,12 +124,3 @@ s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.acred/config/config.toml
 ```
 sudo systemctl restart bcnad && journalctl -fu bcnad -o cat
 ```
-### SnapShot (2 times a day)
-```
-sudo systemctl stop bcnad && \
-cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup && \
-rm -rf $HOME/.bcna/data/
-```
-```
-sudo systemctl restart acred && journalctl -u acred -f
-```
