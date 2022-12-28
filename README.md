@@ -5,9 +5,9 @@
  
  ⭐ I draw a little. I create a little, but the main passion of the node is to be a validator
  
- 💌 **alxvoy@voynitskiy.com**
+ 💌 **alxvoy@anode.team**
  
- 🌐 **https://voynitskiy.com**
+ 🌐 **https://anode.team**
 
  💗 Cosmos one Love!
 
