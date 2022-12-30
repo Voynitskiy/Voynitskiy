@@ -33,7 +33,6 @@
 ```
 git clone https://github.com/FirmaChain/firmachain.git
 cd firmachain
-git pull
 git checkout v0.3.5-patch
 make install
 ```
