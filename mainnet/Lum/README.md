@@ -26,7 +26,7 @@
 * `Genesis` https://raw.githubusercontent.com/lum-network/mainnet/master/genesis.json
 * `Addrbook` https://anode.team/Lum/main/addrbook.json
 ### Explorer
-* `ANODE.TEAM` https://main.anode.team/bitcanna
+* `ANODE.TEAM` https://main.anode.team/lum-network
 * `Lum` https://explorer.lum.network/
 * `Mintscan` https://mintscan.io/lum
 * `Ping` https://ping.pub/lum-network
