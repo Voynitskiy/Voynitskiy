@@ -25,7 +25,7 @@
 * `FirmaChain` https://explorer-colosseum.firmachain.dev
 * `Atomscan` https://atomscan.com/firmachain
 ## Installation Steps
->Prerequisite: go1.18.5+ required. [ref](https://golang.org/doc/install)
+>Prerequisite: go1.18+ required. [ref](https://golang.org/doc/install)
 
 >Prerequisite: git. [ref](https://github.com/git/git)
 
