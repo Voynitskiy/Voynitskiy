@@ -30,25 +30,26 @@
 >Prerequisite: git. [ref](https://github.com/git/git)
 
 * Fetch and install the current version.
-```shell
-git clone https://github.com/BitCannaGlobal/bcna.git
-cd bcna && git checkout v1.5.3
-make build
-sudo mv $HOME/bcna/build/bcnad /usr/local/bin/bcnad
+```
+git clone https://github.com/FirmaChain/firmachain.git
+cd firmachain
+git pull
+git checkout v0.3.5-patch
+make install
 ```
 * Init
 ```
-bcnad init <moniker> --chain-id bitcanna-1
-bcnad config chain-id bitcanna-1
+firmachaind init <moniker> --chain-id colosseum-1
+firmachaind config chain-id colosseum-1
 ```
 
 ### Generate keys
 ```
-bcnad keys add <wallet_name>
+firmachaind keys add <wallet_name>
 ```
 ### Genesis, addrbook
 ```
-curl https://raw.githubusercontent.com/BitCannaGlobal/bcna/main/genesis.json > ~/.firmachain/config/genesis.json
+curl https://raw.githubusercontent.com/FirmaChain/mainnet/main/colosseum-1/genesis.json > ~/.firmachain/config/genesis.json
 curl https://anode.team/FirmaChain/main/addrbook.json > ~/.firmachain/config/addrbook.json
 ```
 ### Peers, seed
