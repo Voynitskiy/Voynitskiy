@@ -1,4 +1,4 @@
-# Lum [bitcanna-1]
+# Lum [lum-network-1]
 ![Lum Guide](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Lum/Lum.png)
 ### Validator AlxVoy
 * `Delegate` https://main.anode.team/lum-network/staking/lumvaloper1sqck02vl79khlwc86vvfjvacgtkck2hftvgm77
