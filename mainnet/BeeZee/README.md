@@ -113,7 +113,7 @@ sudo systemctl stop bzed && bzed unsafe-reset-all --home $HOME/.bze
 ```
 ```
 peers="246036506f4dc3905622a7c2d34553c321f21b7a@65.109.28.177:29577"
-sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bcna/config/config.toml
+sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bze/config/config.toml
 ```
 ```
 sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
