@@ -22,7 +22,7 @@
 ### API
 * `API` https://bitcanna.api.m.anode.team
 ### Peers and seeds
-* `Peer` 803fc66e3bd7b724921ef9c40636067f36e880c6@65.108.199.222:26357
+* `Peer` 803fc66e3bd7b724921ef9c40636067f36e880c6@65.108.199.222:26356
 * `Peers & seeds` https://github.com/BitCannaGlobal/bcna/blob/main/peers_seeds_and_services.md
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/BitCannaGlobal/bcna/main/genesis.json
@@ -124,7 +124,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop bcnad && bcnad tendermint unsafe-reset-all --home $HOME/.bcna
 ```
 ```
-peers="803fc66e3bd7b724921ef9c40636067f36e880c6@65.108.199.222:26357"
+peers="803fc66e3bd7b724921ef9c40636067f36e880c6@65.108.199.222:26356"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bcna/config/config.toml
 ```
 ```
