@@ -19,7 +19,7 @@
 ### API
 * `API` https://arable.api.m.anode.team
 ### Peers and seeds
-* `Peer` e8d03dd64cdd5658167d0b1913c9fd1f05c80d9a@144.76.97.251:29967
+* `Peer` e8d03dd64cdd5658167d0b1913c9fd1f05c80d9a@144.76.97.251:29966
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/ArableProtocol/acrechain/main/networks/mainnet/acre_9052-1/genesis.json
 * `Addrbook` https://anode.team/Arable/main/addrbook.json
@@ -111,7 +111,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop acred && acred tendermint unsafe-reset-all --home $HOME/.acred
 ```
 ```
-peers="e8d03dd64cdd5658167d0b1913c9fd1f05c80d9a@144.76.97.251:29967"
+peers="e8d03dd64cdd5658167d0b1913c9fd1f05c80d9a@144.76.97.251:29966"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.acred/config/config.toml
 ```
 ```
