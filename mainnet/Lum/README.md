@@ -19,7 +19,7 @@
 ### API
 * `API` https://lum.api.m.anode.team
 ### Peers and seeds
-* `Peer` fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:26627
+* `Peer` fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:26626
 * `Seeds` https://github.com/lum-network/mainnet/blob/master/seeds.txt
 * `Seeds` https://github.com/lum-network/mainnet/blob/master/persistent_peers.txt
 ### Genesis and addrbook
@@ -120,7 +120,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop lumd && lumd unsafe-reset-all --home $HOME/.lumd
 ```
 ```
-peers="fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:26627"
+peers="fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:26626"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.lumd/config/config.toml
 ```
 ```
