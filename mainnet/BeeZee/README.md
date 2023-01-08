@@ -16,7 +16,7 @@
 ### API
 * `API` https://beezee.api.m.anode.team
 ### Peers and seeds
-* `Peer` 246036506f4dc3905622a7c2d34553c321f21b7a@65.109.28.177:29577
+* `Peer` 246036506f4dc3905622a7c2d34553c321f21b7a@65.109.28.177:29576
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/bze-alphateam/bze/main/genesis.json
 * `Addrbook` https://anode.team/BeeZee/main/addrbook.json
@@ -112,7 +112,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop bzed && bzed unsafe-reset-all --home $HOME/.bze
 ```
 ```
-peers="246036506f4dc3905622a7c2d34553c321f21b7a@65.109.28.177:29577"
+peers="246036506f4dc3905622a7c2d34553c321f21b7a@65.109.28.177:29576"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bze/config/config.toml
 ```
 ```
