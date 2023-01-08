@@ -16,7 +16,7 @@
 ### API
 * `API` https://firmachain.api.m.anode.team
 ### Peers and seeds
-* `Peer` a94f70e215a429f4b479ff463183703c0b315d01@144.76.97.251:26117
+* `Peer` a94f70e215a429f4b479ff463183703c0b315d01@144.76.97.251:26116
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/FirmaChain/mainnet/main/colosseum-1/genesis.json
 * `Addrbook` https://anode.team/FirmaChain/main/addrbook.json
@@ -110,7 +110,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop firmachaind && firmachaind unsafe-reset-all --home $HOME/.firmachain
 ```
 ```
-peers="a94f70e215a429f4b479ff463183703c0b315d01@144.76.97.251:26117"
+peers="a94f70e215a429f4b479ff463183703c0b315d01@144.76.97.251:26116"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.firmachain/config/config.toml
 ```
 ```
