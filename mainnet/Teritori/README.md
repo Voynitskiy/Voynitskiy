@@ -29,7 +29,7 @@
 * `API` https://teritori.api.m.anode.team
 
 ### Peers
-* `Peer` d2841ce68396c06b9793597feedbcef26ff87a8d@65.109.28.177:26797
+* `Peer` d2841ce68396c06b9793597feedbcef26ff87a8d@65.109.28.177:26796
 
 ### Genesis and addrbook
 * `Genesis` https://media.githubusercontent.com/media/TERITORI/teritori-chain/v1.1.2/mainnet/teritori-1/genesis.json
@@ -130,7 +130,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop teritorid && teritorid tendermint unsafe-reset-all --home $HOME/.teritorid --keep-addr-book
 ```
 ```
-peers="d2841ce68396c06b9793597feedbcef26ff87a8d@65.109.28.177:26797"
+peers="d2841ce68396c06b9793597feedbcef26ff87a8d@65.109.28.177:26796"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.teritorid/config/config.toml
 ```
 ```
