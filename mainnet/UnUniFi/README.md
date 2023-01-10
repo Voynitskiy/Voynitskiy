@@ -81,7 +81,7 @@ sudo systemctl restart ununifid && journalctl -fu ununifid -o cat
 ## Create Validator
 ```
 ununifid tx staking create-validator \
-  --amount=1000000ubcna \
+  --amount=1000000uguu \
   --pubkey=$(ununifid tendermint show-validator) \
   --moniker="<moniker>" \
   --identity="<identity>" \
