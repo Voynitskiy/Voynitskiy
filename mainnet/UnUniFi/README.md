@@ -23,7 +23,7 @@
 * `Addrbook` https://anode.team/UnUniFi/main/addrbook.json
 ### Explorer
 * `ANODE.TEAM` https://main.anode.team/ununifi
-* `BitCanna` https://cosmos-explorer.bitcanna.io/
+* `UnUniFi` https://ununifi.io/explorer/
 ## Installation Steps
 >Prerequisite: go1.17+ required. [ref](https://golang.org/doc/install)
 
