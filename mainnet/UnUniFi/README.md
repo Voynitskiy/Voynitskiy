@@ -107,7 +107,7 @@ TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.bloc
 echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 ```
 ```
-sudo systemctl stop ununifid && ununifid unsafe-reset-all --home $HOME/.ununifi --keep-addr-book
+sudo systemctl stop ununifid && ununifid unsafe-reset-all --home $HOME/.ununifi
 ```
 ```
 peers="39526bf4668ef8a0919c11450372559b7315699a@144.76.97.251:36656"
