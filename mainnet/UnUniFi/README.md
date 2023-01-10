@@ -30,7 +30,8 @@
 >Prerequisite: git. [ref](https://github.com/git/git)
 
 * Fetch and install the current version.
-```git clone https://github.com/UnUniFi/chain ununifi
+```
+git clone https://github.com/UnUniFi/chain ununifi
 cd ununifi
 git checkout v1.0.0-beta.4
 make install
