@@ -94,6 +94,7 @@ bcnad tx staking create-validator \
   --commission-max-change-rate="0.1" \
   --min-self-delegation="1" \
   --gas-prices 0.025uguu \
+  --node "tcp://127.0.0.1:26657" \
   --from=<wallet_name>
 ```
 ### State-Sync
