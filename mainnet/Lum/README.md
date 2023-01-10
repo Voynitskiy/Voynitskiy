@@ -40,7 +40,7 @@
 ```
 git clone https://github.com/lum-network/chain.git lum
 cd lum
-git checkout v1.2.1
+git checkout v1.3.0
 make install
 ```
 * Init
