@@ -48,7 +48,7 @@ ununifid keys add <wallet_name>
 ### Genesis, addrbook
 ```
 curl https://raw.githubusercontent.com/UnUniFi/network/main/launch/ununifi-beta-v1/genesis.json > ~/.ununifi/config/genesis.json
-curl https://anode.team/BitCanna/main/addrbook.json > ~/.ununifi/config/addrbook.json
+curl https://anode.team/UnUniFi/main/addrbook.json > ~/.ununifi/config/addrbook.json
 ```
 ### Peers, seed
 ```
