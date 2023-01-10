@@ -39,7 +39,6 @@ make install
 * Init
 ```
 ununifid init <moniker> --chain-id ununifi-beta-v1
-ununifid config chain-id ununifi-beta-v1
 ```
 
 ### Generate keys
