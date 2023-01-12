@@ -122,5 +122,5 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.acred/config/config.toml
 ```
 ```
-sudo systemctl restart bcnad && journalctl -fu bcnad -o cat
+sudo systemctl restart acred && journalctl -fu acred -o cat
 ```
