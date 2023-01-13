@@ -81,7 +81,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Kujira.png' alt='Kujira'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/KYVE.png' alt='KYVE'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Laconic%20Network.png' alt='Laconic Network'  width='117'>](https://github.com/Voynitskiy)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Lambda.png' alt='Lambda'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/lambda/README.md)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Lambda.png' alt='Lambda'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Lambda/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Mande.png' alt='Mande Networl'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/MUN.png' alt='MUN'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Neutron.png' alt='Neutron'  width='117'>](https://github.com/Voynitskiy)
