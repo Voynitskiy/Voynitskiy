@@ -63,7 +63,7 @@ sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persi
 ```
 sudo tee /etc/systemd/system/nibid.service > /dev/null <<EOF
 [Unit]
-Description=Mars
+Description=Nibiru
 After=network-online.target
 
 [Service]
