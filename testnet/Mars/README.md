@@ -28,6 +28,8 @@
 * `Addrbook` https://anode.team/Mars/test/addrbook.json
 ### Explorer
 * `ANODE.TEAM` https://test.anode.team/mars
+### Auto installation script
+```wget https://anode.team/Mars/test/setup_mars.sh && chmod u+x setup_mars.sh && ./setup_mars.sh```
 ## Installation Steps
 >Prerequisite: go1.18+ required. [ref](https://golang.org/doc/install)
 
