@@ -24,7 +24,7 @@
 ### Peers and seeds
 * `Peer` b7937ceadfd3b89c5232c744832c3f7f918642a1@65.109.28.177:30657
 ### Genesis and addrbook
-* `Genesis` https://snapshots.polkachu.com/testnet-genesis/mars/genesis.json
+* `Genesis` https://anode.team/Mars/test/genesis.json
 * `Addrbook` https://anode.team/Mars/test/addrbook.json
 ### Explorer
 * `ANODE.TEAM` https://test.anode.team/mars
@@ -52,7 +52,7 @@ marsd keys add <wallet_name>
 ```
 ### Genesis, addrbook
 ```
-curl https://snapshots.polkachu.com/testnet-genesis/mars/genesis.json > ~/.mars/config/genesis.json
+curl https://anode.team/Mars/test/genesis.json > ~/.mars/config/genesis.json
 curl https://anode.team/Mars/test/addrbook.json > ~/.mars/config/addrbook.json
 ```
 ### Peers, seed
