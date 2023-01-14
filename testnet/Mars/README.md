@@ -58,7 +58,7 @@ curl https://anode.team/Mars/test/addrbook.json > ~/.mars/config/addrbook.json
 ### Peers, seed
 ```
 seeds="ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:18556"
-sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.lambdavm/config/config.toml
+sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.mars/config/config.toml
 ```
 ### Create the service file
 ```
