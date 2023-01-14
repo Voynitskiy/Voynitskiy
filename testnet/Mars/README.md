@@ -23,6 +23,7 @@
 * `API` https://mars.api.t.anode.team
 ### Peers and seeds
 * `Peer` b7937ceadfd3b89c5232c744832c3f7f918642a1@65.109.28.177:30657
+* `Live peers` https://anode.team/Mars/test/peers_mars.txt
 ### Genesis and addrbook
 * `Genesis` https://anode.team/Mars/test/genesis.json
 * `Addrbook` https://anode.team/Mars/test/addrbook.json
