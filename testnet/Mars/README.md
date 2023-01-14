@@ -1,5 +1,5 @@
 # Mars [ares-1]
-![Mars Guide](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Mars/Mars.png)
+![Mars Guide](https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/Mars/Mars.png)
 ### Validator AlxVoy
 * `Delegate` https://test.anode.team/mars/staking/marsvaloper1yc53leq759uh23yzkgmsv4mr2n359773jvduws
 * `Valoper` marsvaloper1yc53leq759uh23yzkgmsv4mr2n359773jvduws
