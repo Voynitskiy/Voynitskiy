@@ -56,7 +56,7 @@ curl https://anode.team/Nibiru/test/addrbook.json > ~/.nibid/config/addrbook.jso
 ```
 ### Peers, seed
 ```
-seeds="ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:18556"
+peers="5d9432668a2acd0587ecb77b5728177d216c02bc@65.109.93.152:36317"
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.nibid/config/config.toml
 ```
 ### Create the service file
