@@ -22,7 +22,7 @@
 ### API
 * `API` https://mars.api.t.anode.team
 ### Peers and seeds
-* `Peer` b7937ceadfd3b89c5232c744832c3f7f918642a1@65.109.28.177:30657
+* `Peer` b7937ceadfd3b89c5232c744832c3f7f918642a1@65.109.28.177:30656
 * `Live peers` https://anode.team/Mars/test/peers_mars.txt
 ### Genesis and addrbook
 * `Genesis` https://anode.team/Mars/test/genesis.json
@@ -118,7 +118,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop marsd && marsd tendermint unsafe-reset-all --home $HOME/.mars --keep-addr-book
 ```
 ```
-peers="ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:18556"
+peers="b7937ceadfd3b89c5232c744832c3f7f918642a1@65.109.28.177:30656"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.mars/config/config.toml
 ```
 ```
