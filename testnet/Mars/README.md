@@ -8,6 +8,15 @@
 * `Twitter` - https://twitter.com/mars_protocol
 * `Discord` - https://discord.gg/marsprotocol
 * `Github` https://github.com/mars-protocol
+* `Telegram` https://t.me/martiannews
+* `Medium` https://mars-protocol.medium.com/
+* `Forum` https://forum.marsprotocol.io/
+* `Blog` https://blog.marsprotocol.io/
+* `Youtube` https://www.youtube.com/channel/UCKcwNg4deLUrHAX74zS0ozw
+* `Reddit` https://www.reddit.com/r/marsprotocol_io/
+* `Docs` https://docs.marsprotocol.io/mars-protocol
+* `Web App` https://app.marsprotocol.io/
+* `Whitepaper` https://github.com/mars-protocol/whitepaper/blob/main/README.md
 ### RPC
 * `RPC` https://mars.rpc.t.anode.team
 ### API
