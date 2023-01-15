@@ -20,6 +20,7 @@
 * `API` https://arable.api.m.anode.team
 ### Peers and seeds
 * `Peer` e8d03dd64cdd5658167d0b1913c9fd1f05c80d9a@144.76.97.251:29966
+* `Live peers` https://anode.team/Arable/main/peers.txt
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/ArableProtocol/acrechain/main/networks/mainnet/acre_9052-1/genesis.json
 * `Addrbook` https://anode.team/Arable/main/addrbook.json
