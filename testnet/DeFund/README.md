@@ -83,7 +83,7 @@ sudo systemctl restart defundd && journalctl -fu defundd -o cat
 ## Create Validator
 ```
 defundd tx staking create-validator \
-  --amount=101000000ufetf \
+  --amount=100000000ufetf \
   --pubkey=$(defundd tendermint show-validator) \
   --moniker="<moniker>" \
   --identity="<identity>" \
