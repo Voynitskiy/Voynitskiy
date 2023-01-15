@@ -17,6 +17,7 @@
 * `API` https://beezee.api.m.anode.team
 ### Peers and seeds
 * `Peer` 246036506f4dc3905622a7c2d34553c321f21b7a@65.109.28.177:29576
+* `Live peers` https://anode.team/BeeZee/main/peers.txt
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/bze-alphateam/bze/main/genesis.json
 * `Addrbook` https://anode.team/BeeZee/main/addrbook.json
