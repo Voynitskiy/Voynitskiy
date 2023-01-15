@@ -34,6 +34,7 @@
 * Fetch and install the current version.
 ```shell
 git clone https://github.com/bze-alphateam/bze.git
+cd bze
 git checkout v5.1.2
 make install
 ```
