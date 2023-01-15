@@ -58,6 +58,10 @@ curl https://anode.team/BeeZee/main/addrbook.json > ~/.bze/config/addrbook.json
 seeds="6385d5fb198e3a793498019bb8917973325e5eb7@51.15.228.169:26656,ce25088267cef31f3be1ec03263524764c5c80bb@163.172.130.162:26656,102d28592757192ccf709e7fbb08e7dd8721feb1@51.15.138.216:26656,f238198a75e886a21cd0522b6b06aa019b9e182e@51.15.55.142:26656,2624d40b8861415e004d4532bb7d8d90dd0e6e66@51.15.115.192:26656,d36f2bc75b0e7c28f6cd3cbd5bd50dc7ed8a0d11@38.242.227.150:26656"
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.bze/config/config.toml
 ```
+### Pruning = nothing
+```
+sed -i.bak -e "s%^pruning = \"default\"%pruning = \"nothing\"%" $HOME/.bze/config/app.toml
+```
 ### Create the service file
 ```
 sudo tee /etc/systemd/system/bzed.service > /dev/null <<EOF
