@@ -25,6 +25,10 @@
 * `Addrbook` https://anode.team/Arable/main/addrbook.json
 ### Explorer
 * `ANODE.TEAM` https://main.anode.team/arable
+### Auto installation script
+```
+wget https://anode.team/Arable/main/setup_arable.sh && chmod u+x setup_arable.sh && ./setup_arable.sh
+```
 ## Installation Steps
 >Prerequisite: go1.18+ required. [ref](https://golang.org/doc/install)
 
