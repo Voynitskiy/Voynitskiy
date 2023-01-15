@@ -35,7 +35,7 @@
 ```shell
 git clone https://github.com/bze-alphateam/bze.git
 git checkout v5.1.2
-make build
+make install
 ```
 * Init
 ```
