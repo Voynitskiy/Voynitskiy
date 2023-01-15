@@ -113,7 +113,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop nibid && nibid tendermint unsafe-reset-all --home $HOME/.nibid --keep-addr-book
 ```
 ```
-peers="5d9432668a2acd0587ecb77b5728177d216c02bc@65.109.93.152:36317"
+peers="5d9432668a2acd0587ecb77b5728177d216c02bc@65.109.93.152:36316"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.nibid/config/config.toml
 ```
 ```
