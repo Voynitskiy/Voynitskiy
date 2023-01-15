@@ -16,7 +16,7 @@
 ### API
 * `API` https://nibiru.api.t.anode.team
 ### Peers and seeds
-* `Peer` 5d9432668a2acd0587ecb77b5728177d216c02bc@65.109.93.152:36317
+* `Peer` 5d9432668a2acd0587ecb77b5728177d216c02bc@65.109.93.152:36316
 * `Live peers` https://anode.team/Nibiru/test/peers.txt
 ### Genesis and addrbook
 * `Genesis` https://anode.team/Nibiru/test/genesis.json
