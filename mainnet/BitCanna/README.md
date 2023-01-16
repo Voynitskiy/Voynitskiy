@@ -34,6 +34,10 @@
 * `Mintscan` https://www.mintscan.io/bitcanna
 * `Ping` https://ping.pub/bitcanna
 * `Atomscan` https://atomscan.com/bitcanna
+### Auto installation script
+```
+wget https://anode.team/BitCanna/main/setup_bitcanna.sh && chmod u+x setup_bitcanna.sh && ./setup_bitcanna.sh
+```
 ## Installation Steps
 >Prerequisite: go1.18.5+ required. [ref](https://golang.org/doc/install)
 
