@@ -23,6 +23,7 @@
 * `API` https://bitcanna.api.m.anode.team
 ### Peers and seeds
 * `Peer` 803fc66e3bd7b724921ef9c40636067f36e880c6@65.108.199.222:26356
+* `Live peers` https://anode.team/BitCanna/main/peers.txt
 * `Peers & seeds` https://github.com/BitCannaGlobal/bcna/blob/main/peers_seeds_and_services.md
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/BitCannaGlobal/bcna/main/genesis.json
