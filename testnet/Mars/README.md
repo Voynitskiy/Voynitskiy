@@ -129,5 +129,8 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.mars/config/config.toml
 ```
 ```
+curl -o - -L https://anode.team/Mars/test/anode.team_mars_wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.mars/data/
+```
+```
 sudo systemctl restart marsd && journalctl -fu marsd -o cat
 ```
