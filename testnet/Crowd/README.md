@@ -1,4 +1,4 @@
-# Crowd Control [lava-testnet-1]
+# Crowd Control [Testnet3]
 ![Crowd Control](https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/Crowd/Crowd.png)
 ### Validator AlxVoy
 * `Delegate` https://test.anode.team/crowd-control/staking/ccvaloper1jyjcktt92avq4fhjgcqsp38r8flza3lamts7hc
