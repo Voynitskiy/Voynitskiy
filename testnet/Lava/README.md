@@ -22,6 +22,10 @@
 * `Addrbook` https://anode.team/Lava/test/addrbook.json
 ### Explorer
 * `ANODE.TEAM` https://test.anode.team/lava
+### Auto installation script
+```
+wget https://anode.team/Lava/test/setup_lava.sh && chmod u+x setup_lava.sh && ./setup_lava.sh
+```
 ## Installation Steps
 >Prerequisite: go1.18+ required. [ref](https://golang.org/doc/install)
 
