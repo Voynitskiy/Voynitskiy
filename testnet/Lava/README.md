@@ -7,7 +7,7 @@
 * `Website` - https://lavanet.xyz/
 * `Twitter` - https://twitter.com/lavanetxyz
 * `Discord` - https://discord.gg/ZuuXGy6GNF
-* `Blog` https://medium.com/lava-network
+* `Medium` https://medium.com/lava-network
 * `Litepaper` https://lavanet.xyz/assets/lava_litepaper_v0_1.pdf
 * `Docs` https://docs.lavanet.xyz/
 ### RPC
