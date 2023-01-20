@@ -36,8 +36,8 @@ wget https://anode.team/Uptick/test/setup_uptick.sh && chmod u+x setup_uptick.sh
 
 * Fetch and install the current version.
 ```shell
-git clone https://github.com/UptickNetwork/uptick-testnet
-cd uptick-testnet
+git clone https://github.com/UptickNetwork/uptick
+cd uptick
 git checkout v0.2.4
 make install
 ```
