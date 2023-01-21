@@ -19,6 +19,7 @@
 ### Peers and seeds
 * `Peer` fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:29696
 * `Seeds` 7a38dfc59eb43b27cf2cc87b46a43e76aeaaf012@20.205.224.107:26656,49976c3bd43da9271f226cbedf02d4b6b8fc880c@35.233.143.230:26656
+* `Live peers` https://anode.team/LikeCoin/main/peers.txt
 ### Genesis and addrbook
 * `Genesis` https://raw.githubusercontent.com/likecoin/mainnet/master/genesis.json
 * `Addrbook` https://anode.team/LikeCoin/main/addrbook.json
