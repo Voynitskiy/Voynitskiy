@@ -30,6 +30,10 @@
 * `BigDipper` https://likecoin.bigdipper.live
 * `Atomscan` https://atomscan.com/likecoin
 * `Like` https://dao.like.co/
+### Auto installation script
+```
+wget https://anode.team/LikeCoin/main/setup_likecoin.sh && chmod u+x setup_likecoin.sh && ./setup_likecoin.sh
+```
 ## Installation Steps
 >Prerequisite: go1.18+ required. [ref](https://golang.org/doc/install)
 
