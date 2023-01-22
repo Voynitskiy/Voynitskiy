@@ -41,11 +41,11 @@ wget https://anode.team/LikeCoin/main/setup_likecoin.sh && chmod u+x setup_likec
 
 * Fetch and install the current version.
 ```shell
-wget https://github.com/likecoin/likecoin-chain/releases/download/v3.1.0/likecoin-chain_3.1.0_Linux_x86_64.tar.gz
-tar -xvf likecoin-chain_3.1.0_Linux_x86_64.tar.gz
+wget https://github.com/likecoin/likecoin-chain/releases/download/v3.1.1/likecoin-chain_3.1.1_Linux_x86_64.tar.gz
+tar -xvf likecoin-chain_3.1.1_Linux_x86_64.tar.gz
 chmod +x bin/liked
 mv bin/liked /usr/local/bin/
-rm CHANGELOG.md LICENSE README.md likecoin-chain_3.1.0_Linux_x86_64.tar.gz
+rm CHANGELOG.md LICENSE README.md likecoin-chain_3.1.1_Linux_x86_64.tar.gz
 ```
 * Init
 ```
