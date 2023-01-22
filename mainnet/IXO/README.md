@@ -52,8 +52,8 @@ ixod keys add <wallet_name>
 ```
 ### Genesis, addrbook
 ```
-curl https://anode.team/IXO/main/genesis.json > ~/.liked/config/genesis.json
-curl https://anode.team/IXO/main/addrbook.json > ~/.liked/config/addrbook.json
+curl https://anode.team/IXO/main/genesis.json > ~/.ixod/config/genesis.json
+curl https://anode.team/IXO/main/addrbook.json > ~/.ixod/config/addrbook.json
 ```
 ### Peers, seed
 ```
