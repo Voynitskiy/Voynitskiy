@@ -68,6 +68,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/MUN.png' alt='MUN'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Nibiru.png' alt='Nibiru'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Nibiru/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Nois.png' alt='Nois'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Nolus.png' alt='Nolus'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Nomic.png' alt='Nomic'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/OKP4.png' alt='OKP4'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/OKP4/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/OLLO.png' alt='OLLO'  width='117'>](https://github.com/Voynitskiy)
