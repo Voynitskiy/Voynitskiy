@@ -112,7 +112,7 @@ sudo systemctl stop lavad && lavad tendermint unsafe-reset-all --home $HOME/.lav
 ```
 ```
 peers="f9190a58670c07f8202abfd9b5b14187b18d755b@144.76.97.251:27656"
-sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.lambdavm/config/config.toml
+sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.lavad/config/config.toml
 ```
 ```
 sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
