@@ -14,7 +14,7 @@
 ### API
 * `API` https://humans.api.t.anode.team
 ### Peers and seeds
-* `Peer` f9190a58670c07f8202abfd9b5b14187b18d755b@144.76.97.251:27656
+* `Peer` 47004828307a0e0ab8a8a5388dd2e5350af0f7bb@65.109.93.152:51656
 * `Live peers` https://anode.team/Humans/test/peers.txt
 ### Genesis and addrbook
 * `Genesis` https://anode.team/Humans/test/genesis.json
@@ -111,7 +111,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop humansd && humansd tendermint unsafe-reset-all --home $HOME/.humans --keep-addr-book
 ```
 ```
-peers="f9190a58670c07f8202abfd9b5b14187b18d755b@144.76.97.251:27656"
+peers="47004828307a0e0ab8a8a5388dd2e5350af0f7bb@65.109.93.152:51656"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.humans/config/config.toml
 ```
 ```
