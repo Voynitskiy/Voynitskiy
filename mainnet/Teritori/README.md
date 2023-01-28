@@ -85,6 +85,11 @@ sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persi
 sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.001utori"/g' ~/.teritorid/config/app.toml
 ```
 
+### Pruning
+```
+sed -i.bak -e "s/^pruning *=.*/pruning = \"nothing\"/" $HOME/.teritorid/config/app.toml
+```
+
 ### Create the service file
 ```
 sudo tee /etc/systemd/system/teritorid.service > /dev/null <<EOF
