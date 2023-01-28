@@ -42,6 +42,11 @@
 * `Ping` https://ping.pub/teritori
 * `Atomscan` https://atomscan.com/teritori
 
+### Auto installation script
+```
+wget https://anode.team/Teritori/main/setup_tori.sh && chmod u+x setup_tori.sh && ./setup_tori.sh
+```
+
 ## Installation Steps
 >Prerequisite: go1.18+ required. [ref](https://golang.org/doc/install)
 
