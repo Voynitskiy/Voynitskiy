@@ -55,7 +55,7 @@ wget https://anode.team/Teritori/main/setup_tori.sh && chmod u+x setup_tori.sh &
 * Fetch and install the current version.
 ```shell
 git clone https://github.com/TERITORI/teritori-chain
-cd teritori-chain && git checkout v1.2.0
+cd teritori-chain && git checkout v1.3.0
 make install
 ```
 * Init
