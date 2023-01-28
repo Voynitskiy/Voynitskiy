@@ -30,7 +30,7 @@
 
 ### Peers
 * `Peer` d2841ce68396c06b9793597feedbcef26ff87a8d@65.109.28.177:26796
-* `Peer` https://anode.team/Teritori/main/peers.txt
+* `Live Peers` https://anode.team/Teritori/main/peers.txt
 
 ### Genesis and addrbook
 * `Genesis` https://anode.team/Teritori/main/genesis.json
