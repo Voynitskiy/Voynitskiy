@@ -80,7 +80,7 @@ curl https://anode.team/Teritori/main/addrbook.json > ~/.teritorid/config/addrbo
 peers="3069b058b5ed85c3cdb2cf18fb1d255d966b53af@193.149.187.8:26656,a06fbbb9ace823ae28a696a91daa2d0644653c28@65.21.32.200:26756"
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.teritorid/config/config.toml
 ```
-### Peers, seed
+### Add min gas
 ```
 sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.001utori"/g' ~/.teritorid/config/app.toml
 ```
