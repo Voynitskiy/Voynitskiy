@@ -82,7 +82,7 @@ sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persi
 ```
 ### Peers, seed
 ```
-sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.0001uatolo"/g' ~/.teritorid/config/app.toml
+sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.001utori"/g' ~/.teritorid/config/app.toml
 ```
 
 ### Create the service file
