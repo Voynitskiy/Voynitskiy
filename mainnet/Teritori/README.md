@@ -30,10 +30,11 @@
 
 ### Peers
 * `Peer` d2841ce68396c06b9793597feedbcef26ff87a8d@65.109.28.177:26796
+* `Peer` https://anode.team/Teritori/main/peers.txt
 
 ### Genesis and addrbook
-* `Genesis` https://media.githubusercontent.com/media/TERITORI/teritori-chain/v1.1.2/mainnet/teritori-1/genesis.json
-* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Teritori/addrbook.json
+* `Genesis` https://anode.team/Teritori/main/genesis.json
+* `Addrbook` https://anode.team/Teritori/main/addrbook.json
 
 ### Explorer
 * `ANODE.TEAM` https://main.anode.team/teritori
@@ -65,8 +66,8 @@ teritorid keys add <wallet_name>
 
 ### Genesis, addrbook
 ```
-curl https://media.githubusercontent.com/media/TERITORI/teritori-chain/v1.1.2/mainnet/teritori-1/genesis.json > ~/.teritorid/config/genesis.json
-curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Teritori/addrbook.json > ~/.teritorid/config/addrbook.json
+curl https://anode.team/Teritori/main/genesis.json > ~/.teritorid/config/genesis.json
+curl https://anode.team/Teritori/main/addrbook.json > ~/.teritorid/config/addrbook.json
 ```
 
 ### Peers, seed
