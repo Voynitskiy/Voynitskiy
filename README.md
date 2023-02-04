@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/alxvoy_services.png">
 
 <h1 align="center">Hi 👋, I'm Alex</h1>
-<h3 align="center">Individual Proof-of-Stake Validator</h3>
+<h3 align="center">Professional Proof-of-Stake Validator</h3>
   
  💡 I know a little: **HTML, PHP, MySQL, Python, Photoshop, Linux, Grafana**
  
