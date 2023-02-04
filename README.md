@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/alxvoy_services.png">
+
 <h1 align="center">Hi 👋, I'm Alex</h1>
 <h3 align="center">Individual Proof-of-Stake Validator</h3>
   
