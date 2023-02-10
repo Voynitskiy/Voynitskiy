@@ -25,7 +25,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/DIG.png' alt='DIG'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/FirmaChain.png' alt='FirmaChain'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/FirmaChain/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/GenesisL1.png' alt='GenesisL1'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/mainnet/GenesisL1/README.md)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Gravity%20Bridge.png' alt='Gravity Bridge'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Gravity%20Bridge.png' alt='Gravity Bridge'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Gravity/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/IXO.png' alt='IXO'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/IXO/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Jackal.png' alt='Jackal'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Jackal/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Ki-Chain.png' alt='Ki-Chain'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/mainnet/KiChain/README.md)
