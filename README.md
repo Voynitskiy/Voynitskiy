@@ -22,7 +22,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Canto.png' alt='Canto'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Canto/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Cerberus.png' alt='Cerberus'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Cerberus/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/CHEQD%20Network.png' alt='CHEQD Network'  width='117'>](https://github.com/Voynitskiy)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/DIG.png' alt='DIG'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/DIG.png' alt='DIG'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/DIG/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/FirmaChain.png' alt='FirmaChain'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/FirmaChain/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/GenesisL1.png' alt='GenesisL1'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/mainnet/GenesisL1/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Gravity%20Bridge.png' alt='Gravity Bridge'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Gravity/README.md)
