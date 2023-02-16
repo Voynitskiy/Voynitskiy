@@ -13,9 +13,8 @@
 * `Linkedin` https://www.linkedin.com/company/auranetwork/
 * `Facebook` https://facebook.com/AuraNetworkHQ/
 * `Whitepaper` https://github.com/aura-nw/whitepaper/blob/main/release/Aura_Network___whitepaper.pdf
-### RPC
+### RPC & API
 * `RPC` https://aura.rpc.t.anode.team
-### API
 * `API` https://aura.api.t.anode.team
 ### Peers and seeds
 * `Peer` 6ef01ca6714aa8127d1b21b5339909ca6319dae0@144.76.97.251:26776
@@ -27,7 +26,7 @@
 * `ANODE.TEAM` https://test.anode.team/aura
 ### Auto installation script
 ```
-wget https://anode.team/Aura/test/setup_aura.sh && chmod u+x setup_aura.sh && ./setup_aura.sh
+wget -O Aura.sh https://anode.team/Aura/test/Aura.sh && chmod u+x Aura.sh && ./Aura.sh
 ```
 ## Installation Steps
 >Prerequisite: go1.18+ required. [ref](https://golang.org/doc/install)
@@ -60,6 +59,10 @@ curl https://anode.team/Aura/test/addrbook.json > ~/.aura/config/addrbook.json
 ```
 peers="6ef01ca6714aa8127d1b21b5339909ca6319dae0@144.76.97.251:26776"
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.aura/config/config.toml
+```
+### Add min gas
+```
+sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0ueaura\"/" $HOME/.aura/config/app.toml
 ```
 ### Create the service file
 ```
