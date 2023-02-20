@@ -37,6 +37,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Mises.png' alt='Mises'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Mises/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Nomic.png' alt='Nomic'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/NYM.png' alt='NYM'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Paloma.png' alt='Paloma'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Persistence.png' alt='Persistence'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Point.png' alt='Point'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Point/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Provenance.png' alt='Provenance'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Provenance/README.md)
