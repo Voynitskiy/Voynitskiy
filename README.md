@@ -54,7 +54,7 @@
 <h1 align="center">Testnet</h1>
 
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Althea.png' alt='Althea'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Althea/README.md)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Androma.png' alt='Androma'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Androma/README.md)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Androma.png' alt='Androma'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/testnet/Androma/README.ms)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Andromeda.png' alt='Andromeda'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Andromeda/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Aura.png' alt='Aura'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Aura/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/BitCanna.png' alt='BitCanna'  width='117'>](https://github.com/Voynitskiy)
