@@ -70,7 +70,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Ki-Chain.png' alt='Ki-Chain'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/KiChain/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/KYVE.png' alt='KYVE'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Lambda.png' alt='Lambda'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Lambda/README.md)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Lava.png' alt='Mars'  width='117'>]
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Lava.png' alt='Mars'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Lava/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Mande.png' alt='Mande Networl'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Mande/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/MUN.png' alt='MUN'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Nibiru.png' alt='Nibiru'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Nibiru/README.md)
@@ -113,7 +113,6 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Kujira.png' alt='Kujira'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Laconic%20Network.png' alt='Laconic Network'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Neutron.png' alt='Neutron'  width='117'>](https://github.com/Voynitskiy)
-(https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Lava/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Mars.png' alt='Mars'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Mars/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/OLLO.png' alt='OLLO'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Omniflix.png' alt='Omniflix'  width='117'>](https://github.com/Voynitskiy)
