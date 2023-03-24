@@ -4,15 +4,17 @@
 * `Valoper` hidvaloper12v3uv7x0cg64vcystkqukwv24ecerew2xlyqtp
 ### Links testnet
 * https://github.com/hypersign-protocol
-### RPC
-* `RPC` 65.109.28.177:29227
+### RPC & API
+* `RPC` https://hypersign.rpc.t.anode.team
+* `API` https://hypersign.api.t.anode.team
 ### Peers and seeds
-* `Peer` fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:29226
+* `Peer` d5f7dfff307cefb8e960000caf53b92dd9c58a1d@65.109.28.177:29226
+* `Live peers` https://anode.team/Hypersign/test/peers.txt
 ### Genesis and addrbook
-* `Genesis` https://raw.githubusercontent.com/hypersign-protocol/networks/master/testnet/jagrat/final_genesis.json
-* `Addrbook` https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Hypersign/addrbook.json
+* `Genesis` https://anode.team/Hypersign/test/genesis.json
+* `Addrbook` https://anode.team/Hypersign/test/addrbook.json
 ## Installation Steps
->Prerequisite: go1.19+ required. [ref](https://golang.org/doc/install)
+>Prerequisite: go1.18 required. [ref](https://golang.org/doc/install)
 
 >Prerequisite: git. [ref](https://github.com/git/git)
 
@@ -39,7 +41,7 @@ curl https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/Hypers
 ```
 ### Peers, seed
 ```
-peers="fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:29226"
+peers="d5f7dfff307cefb8e960000caf53b92dd9c58a1d@65.109.28.177:29226"
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$seeds\"/; s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" ~/.hid-node/config/config.toml
 ```
 ### Create the service file
@@ -84,7 +86,7 @@ sudo systemctl restart hid-noded && journalctl -fu hid-noded -o cat
 ```
 ### State-Sync
 ```
-SNAP_RPC=65.109.28.177:29227 && \
+SNAP_RPC=https://hypersign.rpc.t.anode.team:443 && \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash) && \
@@ -94,7 +96,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop hid-noded && hid-noded tendermint unsafe-reset-all --home $HOME/.hid-node
 ```
 ```
-peers="fc6f7914e4beb4b5278e7ba32ec2abde97cd8082@65.109.28.177:29226"
+peers="d5f7dfff307cefb8e960000caf53b92dd9c58a1d@65.109.28.177:29226"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.hid-node/config/config.toml
 ```
 ```
