@@ -74,7 +74,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Lambda.png' alt='Lambda'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Lambda/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Lava.png' alt='Mars'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Lava/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Mande.png' alt='Mande Networl'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Mande/README.md)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/MUN.png' alt='MUN'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/MUN.png' alt='MUN'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/MUN/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Nibiru.png' alt='Nibiru'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Nibiru/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Nois.png' alt='Nois'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Nois/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Nolus.png' alt='Nolus'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Nolus/README.md)
