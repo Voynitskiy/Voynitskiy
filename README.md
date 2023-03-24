@@ -17,6 +17,7 @@
 
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Arable.png' alt='umee'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Arable/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/arkh.png' alt='ARKH'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/ARKH/README.md)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Aura.png' alt='Aura'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Aura/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitCanna.png' alt='nym'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/BitCanna/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/BitSong.png' alt='mises'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/BitSong/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/c4e.png' alt='Chain4Energy'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/C4E/README.md)
@@ -31,6 +32,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Jackal.png' alt='Jackal'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Jackal/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Ki-Chain.png' alt='Ki-Chain'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/mainnet/KiChain/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Konstellation.png' alt='Konstellation'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/mainnet/Konstellation/README.md)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/KYVE.png' alt='KYVE'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Lambda.png' alt='Lambda'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Lambda/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/LikeCoin.png' alt='LikeCoin'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/LikeCoin/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Lum.png' alt='Lum'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Lum/README.md)
