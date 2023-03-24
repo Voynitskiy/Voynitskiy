@@ -20,7 +20,7 @@
 ```shell
 git clone https://github.com/hypersign-protocol/hid-node.git
 cd terp-core
-git checkout v0.1.2
+git checkout v0.1.6
 make install
 ```
 * Init
