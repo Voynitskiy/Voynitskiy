@@ -65,6 +65,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Clan.png' alt='Clan'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Clan/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Crowd.png' alt='Crowd'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/DeFund.png' alt='DeFund'  width='117'>](https://github.com/Voynitskiy)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Elys.png' alt='Elys Network'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Elys/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Gitopia.png' alt='Gitopia'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/HAQQ.png' alt='HAQQ'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Humans.png' alt='Humans'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Humans/README.md)
