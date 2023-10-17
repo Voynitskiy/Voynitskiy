@@ -46,7 +46,7 @@ wget https://anode.team/BitCanna/main/setup_bitcanna.sh && chmod u+x setup_bitca
 * Fetch and install the current version.
 ```shell
 git clone https://github.com/BitCannaGlobal/bcna.git
-cd bcna && git checkout v1.5.3
+cd bcna && git checkout v2.0.3
 make build
 sudo mv $HOME/bcna/build/bcnad /usr/local/bin/bcnad
 ```
@@ -129,7 +129,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 sudo systemctl stop bcnad && bcnad tendermint unsafe-reset-all --home $HOME/.bcna
 ```
 ```
-peers="803fc66e3bd7b724921ef9c40636067f36e880c6@65.108.199.222:26356"
+peers="756fa9ce5d65c3c43021d2780e1bda0924a6cd14@144.76.97.251:27656"
 sed -i.bak -e  "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bcna/config/config.toml
 ```
 ```
