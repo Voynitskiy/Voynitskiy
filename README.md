@@ -62,10 +62,10 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Source.png' alt='Source'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Source/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Stride.png' alt='Stride'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Teritori.png' alt='Teritori'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Teritori/README.md)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Terp.png' alt='Terp'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Terp/README.md)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/TerpNetwork.png' alt='Terp'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Terp/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Tgrade.png' alt='Tgrade'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Tgrade/README.md)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/UnUniFI.png' alt='UnUniFi'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/UnUniFi/README.md)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Uptick.png' alt='Uptick'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Uptick/README.md)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/UnUniFi.png' alt='UnUniFi'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/UnUniFi/README.md)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Uptick Network.png' alt='Uptick'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Uptick/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Vidulum.png' alt='Vidulum'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/blob/main/mainnet/Vidulum/README.md)
 
 <h1 align="center">Testnet</h1>
