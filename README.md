@@ -82,7 +82,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Crowd.png' alt='Crowd'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/Empower.png' alt='Empower'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Elys.png' alt='Elys Network'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Elys/README.md)
-[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Entngle.png' alt='Entngle'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Entngle/README.md)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Entangle.png' alt='Entangle'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Entangle/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/EntryPoint.png' alt='EntryPoint'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/EntryPoint/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/HAQQ.png' alt='HAQQ'  width='117'>](https://github.com/Voynitskiy)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Hypersign.png' alt='Hypersign'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Hypersign/README.md)
