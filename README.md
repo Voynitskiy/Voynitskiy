@@ -103,6 +103,7 @@
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Realio.png' alt='Realio'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Realio/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/SAO.png' alt='SAO'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/SAO/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/mainnet/logo/SGE.png' alt='SGE'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/)
+[<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Side.png' alt='Side Protocol'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Side/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Source.png' alt='Source'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Source/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Structs.png' alt='Structs'  width='117'>](https://github.com/Voynitskiy/Voynitskiy/tree/main/testnet/Structs/README.md)
 [<img src='https://raw.githubusercontent.com/Voynitskiy/Voynitskiy/main/testnet/logo/Teritori.png' alt='Teritori'  width='117'>](https://github.com/Voynitskiy)
